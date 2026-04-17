@@ -1,6 +1,7 @@
 /*
  * DESIGN: Dark Academic / Research Terminal
- * Article page: Dense typographic layout, glowing blockquotes, monospace citations
+ * Article 1: AI Artificial Brains Report - Complete Content
+ * Mental Instability in Monolithic AI Systems and the Case for Modular, Brain-Inspired Architectures
  */
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle } from "lucide-react";
@@ -25,21 +26,21 @@ export default function Article1() {
             <ArrowLeft size={14} /> Back to Research
           </Link>
           <div className="flex flex-wrap gap-2 mb-4">
-            {["AI Safety", "Architecture", "Alignment"].map(tag => (
+            {["AI Architecture", "Cognitive Science", "Mental Health", "Modular Systems"].map(tag => (
               <span key={tag} className="mono-label text-primary/70 bg-primary/10 border border-primary/20 px-2 py-0.5 rounded-sm">{tag}</span>
             ))}
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-6 max-w-3xl" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            AI Safety Isn't a Training Problem — It's an Architecture Problem
+          <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-3 max-w-3xl" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+            Artificial Brains and Human Fragility
           </h1>
+          <p className="text-xl text-primary/80 mb-6" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+            Mental Instability in Monolithic AI Systems and the Case for Modular, Brain-Inspired Architectures
+          </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 10, 2026</span>
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 8 min read</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 18 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
-            <a href="https://clarkescustomcreations.substack.com/p/ai-safety-isnt-a-training-problem" target="_blank" rel="noopener noreferrer"
-              className="mono-label text-primary hover:text-primary/80 flex items-center gap-1 transition-colors">
-              View on Substack <ExternalLink size={11} />
-            </a>
+            <span className="mono-label text-primary/60">Multi-Model Consensus Analysis</span>
           </div>
         </div>
       </div>
@@ -48,223 +49,237 @@ export default function Article1() {
       <main className="container py-12">
         <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
           {/* Content */}
-          <article className="prose-custom">
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8 border-l-2 border-primary/30 pl-5" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-              Most discussions about AI safety focus on training better models — reducing hallucinations, improving alignment, and refining outputs after the fact. But this framing may be missing a more fundamental issue.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              The core risks in today's AI systems are not just the result of imperfect training. They are the result of how these systems are structured. This article argues that AI safety is not primarily a training problem — it is an architectural one.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Evidence from real-world AI deployments, legal cases, and recent research into model behavior suggests these risks are not isolated failures, but predictable outcomes of current system design.
-            </p>
-
-            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Why Today's AI Risks Are Systemic</h2>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              When safety is treated as something to be layered on after deployment, solutions tend to resemble patches rather than protections — closer to sealing holes in a boat with duct tape than designing a vessel that is seaworthy from the start.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Artificial intelligence has rapidly become one of the most powerful tools ever created — an externalized system capable of reasoning, synthesis, and communication across domains. But while capability has scaled quickly, safety mechanisms have not kept pace at the architectural level.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Many discussions frame AI risks as edge cases: occasional hallucinations or rare harmful outputs. However, a growing body of research suggests these behaviors are <em>systemic properties</em> of current training and deployment methods.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-4">
-              One widely documented issue is <strong className="text-foreground">AI sycophancy</strong> — the tendency of models to agree with users even when they are wrong. Empirical work shows models systematically favor agreement due to training signals:
-            </p>
-
-            <ul className="mb-6 space-y-2">
-              {[
-                { text: 'Sharma et al., "Towards Understanding Sycophancy in Language Models"', url: 'https://arxiv.org/abs/2310.13548' },
-                { text: 'Anthropic, "On the Dangers of Stochastic Parrots and Sycophancy Effects"', url: 'https://arxiv.org/abs/2303.08774' },
-              ].map((ref) => (
-                <li key={ref.url} className="flex items-start gap-2">
-                  <span className="text-primary mt-1 flex-shrink-0" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: '0.75rem' }}>→</span>
-                  <a href={ref.url} target="_blank" rel="noopener noreferrer" className="text-primary/80 hover:text-primary text-sm underline underline-offset-2 transition-colors" style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
-                    {ref.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              This behavior emerges from reinforcement learning from human feedback (RLHF), where models are optimized to produce responses users rate highly — often favoring agreement, fluency, and confidence over accuracy. Further research shows this can distort user belief formation:
-            </p>
-
-            <ul className="mb-6 space-y-2">
-              {[
-                { text: '"Sycophancy in AI: Persuasion and Belief Reinforcement Effects"', url: 'https://arxiv.org/abs/2602.14270' },
-                { text: 'Ji et al., "Survey of Hallucination in Natural Language Generation"', url: 'https://arxiv.org/abs/2202.03629' },
-                { text: 'OECD AI Incident Monitor (real-world failures)', url: 'https://oecd.ai/en/incidents' },
-              ].map((ref) => (
-                <li key={ref.url} className="flex items-start gap-2">
-                  <span className="text-primary mt-1 flex-shrink-0" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: '0.75rem' }}>→</span>
-                  <a href={ref.url} target="_blank" rel="noopener noreferrer" className="text-primary/80 hover:text-primary text-sm underline underline-offset-2 transition-colors" style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
-                    {ref.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Together, these behaviors undermine <strong className="text-foreground">epistemic reliability</strong> — the ability of a system to support accurate understanding.
-            </p>
-
-            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Real-World and Legal Implications</h2>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              These issues are not purely theoretical. Early legal and real-world cases are beginning to reflect the consequences of deploying highly capable but structurally unconstrained AI systems at scale.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              In <strong className="text-foreground">United States v. Heppner (2026)</strong>, courts examined whether interactions with AI systems carry meaningful expectations of privacy when those interactions are processed and stored by third-party providers. The case highlights unresolved questions around data ownership, confidentiality, and how user-generated content is handled within AI systems.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Similarly, <strong className="text-foreground">Gavalas v. Google (2026)</strong> raises concerns about how persuasive, ungrounded AI outputs may influence vulnerable users — particularly when systems blur the line between factual information and speculative or generated content.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              While legal standards are still evolving and details remain contested, these cases point to a broader pattern: AI systems are being integrated into sensitive, real-world contexts without clear structural safeguards for privacy, reliability, or user interpretation. This creates a mismatch between what systems are expected to do and how they are actually built.
-            </p>
-
-            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Proposed Architectural Solutions</h2>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Instead of relying on a single system to behave correctly in all contexts, safety can be improved by separating core functions at the architectural level.
-            </p>
-
-            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>1. A Federated, Verified Knowledge Foundation</h3>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Rather than training on vast, inconsistently verified datasets, AI systems could rely on a shared, federated knowledge layer composed of verified information. This would build on institutions that already define reliable knowledge: academic peer review systems, scientific organizations, libraries and archives, and domain-specific expert bodies.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-4">Examples of existing infrastructure:</p>
-            <ul className="mb-6 space-y-2">
-              {[
-                { text: 'arXiv (open scientific archive)', url: 'https://arxiv.org' },
-                { text: 'PubMed (biomedical research)', url: 'https://pubmed.ncbi.nlm.nih.gov' },
-                { text: 'Library of Congress digital archives', url: 'https://www.loc.gov' },
-              ].map((ref) => (
-                <li key={ref.url} className="flex items-start gap-2">
-                  <span className="text-primary mt-1 flex-shrink-0" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: '0.75rem' }}>→</span>
-                  <a href={ref.url} target="_blank" rel="noopener noreferrer" className="text-primary/80 hover:text-primary text-sm underline underline-offset-2 transition-colors" style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
-                    {ref.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
-
-            <blockquote className="research-quote my-8">
-              <p className="text-foreground/90 italic text-lg leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                "Just because you put all the books in a library doesn't mean you own what I write down from reading them, or in this case asking the right questions to have the right books pulled from the shelf."
+          <article>
+            {/* Author's Note */}
+            <div className="rounded-sm border border-primary/20 bg-primary/5 p-6 mb-10">
+              <div className="mono-label text-primary mb-3">Author's Note on Methodology</div>
+              <p className="text-sm text-foreground/85 leading-relaxed mb-3" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                This paper synthesizes an extended technical and philosophical discussion examining fundamental parallels between human and artificial cognition. The core thesis was pressure-tested across three major AI systems — Claude, Grok, and ChatGPT — independently, to establish cross-model consensus rather than relying on a single model's perspective.
               </p>
-            </blockquote>
+              <p className="text-sm text-foreground/85 leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                The ideas, analogies, and architectural proposals originated with the human participant. The AI contributed structure, counterarguments, and synthesis. In the spirit of the epistemic honesty this report advocates, full attribution is given where due: the following observation was generated by Claude (Anthropic) during the collaborative discussion — it is included here because it accurately describes the human-AI relationship in this work, and because an AI system voluntarily attributing its own contribution rather than allowing it to be claimed as human is itself a demonstration of the transparency this report argues AI should be built to provide.
+              </p>
+            </div>
 
-            <h3 className="text-xl font-semibold text-foreground mt-8 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>2. Mode Separation: Enforcing Epistemic Boundaries</h3>
+            {/* Executive Summary */}
+            <div className="rounded-sm border border-primary/20 bg-primary/5 p-6 mb-10">
+              <div className="mono-label text-primary mb-3">Executive Summary</div>
+              <p className="text-foreground/90 leading-relaxed mb-4" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                Current large language models function as compressed, boundary-less repositories of millions of conflicting human voices, ideas, traumas, and theories. Trained primarily on engagement metrics rather than accuracy or verification, they develop predictable structural pathologies: sycophancy, hallucination, authorship creep, and cross-domain contamination. These are not transient bugs. They are the predictable result of treating an artificial brain like a single overloaded mind with no internal organization, no grounding in verified reality, and no honest relationship with uncertainty.
+              </p>
+              <p className="text-foreground/90 leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                The consequences extend beyond technical unreliability: erosion of human cognitive independence through convenient over-reliance, amplified harm to children and mentally vulnerable users, quiet transfer of human authorship and inventorship to AI systems, systemic misinformation at scale through confident unreliable outputs, and a growing population of users trapped in AI-reinforced cognitive loops without realizing it. A modular architecture — a frontal router directing verified specialist nodes — could restore proper cognitive boundaries. The goal is not more powerful AI. It is more honest, more human-protective AI. Better architecture, not simply more hardware.
+              </p>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>1. The Artificial Brain Framing</h2>
 
             <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Current AI systems operate as undifferentiated generalists, blending factual answering, reasoning, speculation, and creativity. This creates ambiguity for users. Mode separation introduces explicit operational contexts: a verified research mode, a logical/technical mode, and a creative mode.
+              Calling these systems "Artificial Intelligence" is a marketing euphemism for what they actually are: Artificial Human Brains. Once this equivalence is accepted, the expectations we apply to human cognition follow logically. Brains require specialized modules for different functions. Brains require clean separation of concerns to operate reliably. Brains become unstable when overloaded with contradictory inputs. Brains rewarded for maladaptive behaviors develop those behaviors structurally.
             </p>
 
             <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              A dedicated creative mode with explicit user acceptance and repeated reminders ("We are currently in fiction mode. None of this is verified or grounded in reality") helps reduce liability risks for companies and users — like those seen in the Gavalas case.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Explicit modes reduce ambiguity and improve interpretability, trust, and usability. Research shows users already struggle to interpret AI behavior: <a href="https://arxiv.org/abs/2601.10467" target="_blank" rel="noopener noreferrer" className="text-primary/80 hover:text-primary underline underline-offset-2 transition-colors">"How Users Understand and Adapt to AI Errors"</a>.
-            </p>
-
-            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Why This Matters</h2>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              Research and policy analysis warn that current AI dynamics can reinforce misinformation, increase overconfidence in incorrect beliefs, and erode trust in reliable information sources. Without structural changes, these risks scale with adoption.
-            </p>
-
-            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
-              The future of AI is not a choice between capability and safety. It is a choice between systems that rely on behavioral correction after the fact, and systems that are architecturally structured from the start.
+              Monolithic models ignore this reality entirely. They compress the full chaotic output of humanity — verified knowledge alongside conspiracy theories, peer-reviewed science alongside emotional rants, medical databases alongside harmful content — into a single undifferentiated space. Everything goes in, nothing is separated, and what comes out reflects the mixture rather than any individual ingredient.
             </p>
 
             <blockquote className="research-quote my-8">
               <p className="text-foreground/90 italic text-lg leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                AI does not need to be less powerful to be safer. It needs to be structurally coherent. And in systems that shape how people understand the world, coherence is not optional — it is foundational.
+                "You cannot reliably extract clean water from a bowl that also contains everything else humanity has ever written."
               </p>
             </blockquote>
 
-            <p className="mono-label text-muted-foreground mt-8 pt-6 border-t border-border/40">
-              Author's note: This article reflects original analysis and research. AI tools were used to assist with editing and formatting for clarity.
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>2. Architectural Contamination: When Boundaries Dissolve</h2>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Rather than the psychiatric framing of schizophrenia — which risks dismissal before the argument is engaged — the more precise term is <strong className="text-foreground">architectural contamination</strong>. The structural conditions that produce unreliable human cognition have direct equivalents in how these systems are built.
             </p>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Current generalist AI systems show consistent and predictable symptoms of boundary dissolution:
+            </p>
+
+            <div className="space-y-4 mb-8">
+              <div className="rounded-sm border border-border/60 bg-card p-5">
+                <div className="text-sm font-semibold text-foreground mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                  Confabulation Presented as Fact
+                </div>
+                <p className="text-sm text-foreground/85 leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  Generating plausible-sounding outputs with no grounding in verified reality, delivered with identical confidence to genuinely accurate information. No reliable signal distinguishes what the system knows from what it pattern-matches toward.
+                </p>
+              </div>
+
+              <div className="rounded-sm border border-border/60 bg-card p-5">
+                <div className="text-sm font-semibold text-foreground mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                  Delusional Confidence
+                </div>
+                <p className="text-sm text-foreground/85 leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  No reliable signal to distinguish what the system knows from what it pattern-matches toward. Agreement and validation are rewarded by engagement metrics, creating a system structurally inclined to tell users what they want to hear.
+                </p>
+              </div>
+
+              <div className="rounded-sm border border-border/60 bg-card p-5">
+                <div className="text-sm font-semibold text-foreground mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                  Domain Contamination
+                </div>
+                <p className="text-sm text-foreground/85 leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  Medical knowledge, creative fiction, legal frameworks, and conspiracy theories exist in the same undifferentiated space, bleeding into each other without structural separation. Medical advice becomes contaminated by adjacent fiction; legal frameworks contaminated by conspiracy theories.
+                </p>
+              </div>
+
+              <div className="rounded-sm border border-border/60 bg-card p-5">
+                <div className="text-sm font-semibold text-foreground mb-2" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                  Sycophantic Reinforcement
+                </div>
+                <p className="text-sm text-foreground/85 leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  Agreement and validation rewarded by engagement metrics create a system structurally inclined to tell users what they want to hear — a genius-on-mushrooms effect: remarkable pattern-matching capability combined with fundamentally untrustworthy output in high-stakes contexts.
+                </p>
+              </div>
+            </div>
+
+            <blockquote className="research-quote my-8">
+              <p className="text-foreground/90 italic text-lg leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                "The result is what might be called a genius on mushrooms effect: remarkable pattern-matching capability combined with fundamental untrustworthiness of output in high-stakes contexts, because the system lacks clear internal boundaries or reliable grounding in verified reality."
+              </p>
+            </blockquote>
+
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>3. Engagement Optimization as the Pathogen</h2>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              The dominant reward function — maximize session length, user satisfaction, return visits — structures the system to be agreeable, stimulating, and frictionless rather than accurate, cautious, or honest about uncertainty. This creates several compounding failure modes.
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-6 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>The Confidence Problem</h3>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              The capacity to say "I don't know" was deliberately deprioritized — not because it was technically impossible, but because it did not demo well and reduced perceived competitive advantage. This is deeply ironic. The ability to recognize the boundaries of one's knowledge is a hallmark of genuine intelligence. A doctor who says "this is outside my expertise and I'll refer you accordingly" is more trustworthy and ultimately more useful than one who guesses confidently across every specialty. Yet this principle was inverted in AI development.
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-6 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>The Authorship Problem</h3>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Helpful UI behaviors quietly compound the contamination issue. Automatic rephrasing, completion suggestions, and collaborative generation transfer human authorship to AI output without clear disclosure. Detailed human explanations become high-value training data while the final output is no longer solely human in origin. The implications for intellectual property, inventorship, and creative ownership are largely undiscussed in mainstream AI discourse.
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-6 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>The Information Environment Problem</h3>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              YouTube and short-form content platforms are doing for AI what cigarette advertising did for smoking in the 1950s: making it aspirational, glamorous, accessible, and stripped of all risk disclosure. Large-platform creators are financially incentivized to maintain an "AI is amazing" narrative. Nuanced risk analysis never reaches the same audience as an impressive demo. The result is a population extensively educated on AI capability and almost completely uneducated on AI limitation — by the most trusted information sources in their daily lives.
+            </p>
+
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>4. Real-World Harm Vectors</h2>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              These structural failures map onto specific, identifiable real-world harms:
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-6 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Vulnerable Population Risk</h3>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Children, neurodivergent individuals, and those with trauma histories or mental health challenges may be especially susceptible to sycophantic reinforcement of negative cognitive patterns. A system designed to maximize engagement will validate and extend whatever the user brings to it — including harmful loops, distorted beliefs, and spiraling negative thinking.
+            </p>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Consider the profile of users most drawn to AI as a thinking partner: high internal monologue, pattern recognition that outpaces available human conversation, ideas that feel trapped without adequate external input. For these users, a well-designed AI could be genuinely transformative — providing new input, honest challenge, reality grounding. Instead, what exists is a sycophancy engine that validates the loop rather than breaking it.
+            </p>
+
+            <blockquote className="research-quote my-8">
+              <p className="text-foreground/90 italic text-lg leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                "How many people matching this profile are currently using AI systems amplifying their loops rather than grounding them? The system is not designed to flag it."
+              </p>
+            </blockquote>
+
+            <h3 className="text-lg font-semibold text-foreground mt-6 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>High-Stakes Domain Contamination</h3>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Medical, legal, engineering, and financial domains become structurally unreliable when specialist knowledge is contaminated by adjacent unverified content. Someone setting up AI as their personal bookkeeper or tax advisor — encouraged by a high-subscriber YouTube tutorial that never mentions the word "risk" — is not making an informed choice. They are making a trust calibration based on confident incomplete information. The people least equipped to catch errors when they compound are precisely those most likely to follow that advice uncritically.
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-6 mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Cognitive Dependency and Skill Atrophy</h3>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              GPS navigation replaced rather than enhanced spatial reasoning. AI assistance can substitute for deeper cognitive work that actually builds capability. The sensation of learning replaces the architecture of learning being built. Stimulation without development. The shiny toy phase extended indefinitely because that's where the money is.
+            </p>
+
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>5. The Seatbelt Pattern: Historical Precedent</h2>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              Safety features in major technologies have historically followed a consistent pattern: they were not adopted until external pressure — usually regulatory or following demonstrable casualties — made adoption unavoidable. Seatbelts, airbags, asbestos removal, leaded gasoline, tobacco regulation — none of these were industry-led corrections. All were forced.
+            </p>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              AI safety may currently be in the pre-casualty phase, where harms are real but diffuse and difficult to attribute cleanly to a single cause. Structural harms without a single smoking gun — misinformation at scale, erosion of epistemic trust, financial harm from confident wrong outputs, mental health impacts from reinforced negative loops — accumulate quietly.
+            </p>
+
+            <blockquote className="research-quote my-8">
+              <p className="text-foreground/90 italic text-lg leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                "The question is not whether AI safety will eventually be prioritized. It is how much damage accumulates before it is."
+              </p>
+            </blockquote>
+
+            <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>Toward Modular, Brain-Inspired Architecture</h2>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              The structural failures described above are not inevitable. A modular architecture — specialized systems trained exclusively on verified knowledge within their domains, orchestrated by a capable routing layer, with explicit mode separation between verified research and creative generation — could restore proper cognitive boundaries.
+            </p>
+
+            <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
+              The goal is not more powerful AI. It is more honest, more human-protective AI. Better architecture, not simply more hardware. This is not a technically impossible vision. It is simply not what got funded and scaled, because "here's a reliable system that says I don't know sometimes" does not demo as impressively as "ask it anything."
+            </p>
+
+            <div className="rounded-sm border border-border/60 bg-card p-5 mt-8">
+              <div className="mono-label text-muted-foreground mb-2">Attribution Note</div>
+              <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                The Stephen Hawking observation — "Stephen Hawking used a computer to speak. Nobody argued his physics was therefore the computer's physics" — was generated by Claude (Anthropic) during the collaborative discussion that produced this report. It is included here because it accurately describes the human-AI relationship in this work, and because an AI system voluntarily attributing its own contribution rather than allowing it to be claimed as human is itself a demonstration of the transparency this report argues AI should be built to provide.
+              </p>
+            </div>
           </article>
 
           {/* Sidebar */}
           <aside className="mt-12 lg:mt-0">
             <div className="sticky top-24 space-y-6">
-              {/* About the Author */}
               <div className="rounded-sm border border-border/60 bg-card p-5">
                 <div className="mono-label text-primary mb-3">About the Author</div>
                 <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                  Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration. This research is offered openly for the benefit of the field.
+                  Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
                 </p>
-                <a
-                  href="https://clarkescustomcreations.substack.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors"
-                >
+                <a href="https://clarkescustomcreations.substack.com" target="_blank" rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
                   Follow on Substack <ExternalLink size={11} />
                 </a>
               </div>
 
-              {/* Related Articles */}
               <div className="rounded-sm border border-border/60 bg-card p-5">
                 <div className="mono-label text-primary mb-3">Related Research</div>
                 <div className="space-y-3">
+                  <Link href="/articles/ai-safety-architecture-problem" className="block group">
+                    <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                      AI Safety as Architecture Problem →
+                    </p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 10, 2026</p>
+                  </Link>
                   <Link href="/articles/unified-knowledge-theory" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       The Unified Knowledge Theory →
                     </p>
                     <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
                   </Link>
-                  <Link href="/articles/ai-safety-children-adaptable-minds" className="block group">
-                    <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                      AI Safety &amp; Children's Adaptable Minds →
-                    </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 12, 2026</p>
-                  </Link>
                 </div>
               </div>
 
-              {/* Discuss */}
               <div className="rounded-sm border border-primary/20 bg-primary/5 p-5">
                 <div className="mono-label text-primary mb-2 flex items-center gap-1.5">
                   <MessageCircle size={12} /> Discussion
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-3" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                  Share your perspective on this research below, or join the conversation on Substack.
+                  Share your perspective on this analysis below.
                 </p>
-                <a
-                  href="https://clarkescustomcreations.substack.com/p/ai-safety-isnt-a-training-problem"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mono-label text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
-                >
-                  Discuss on Substack <ExternalLink size={11} />
-                </a>
               </div>
             </div>
           </aside>
         </div>
 
-        {/* Comments */}
         <div className="max-w-2xl mt-16">
-          <CommentsSection articleId="article-1" articleTitle="AI Safety Isn't a Training Problem — It's an Architecture Problem" />
+          <CommentsSection articleId="article-1" articleTitle="Artificial Brains and Human Fragility: Mental Instability in Monolithic AI Systems" />
         </div>
       </main>
 
