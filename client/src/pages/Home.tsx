@@ -95,9 +95,9 @@ export default function Home() {
             </h1>
             <p
               className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-2xl"
-              style={{ fontFamily: "'IBM Plex Serif', serif" }}
+              style={{ fontFamily: "'IBM Plex Serif', serif", color: '#95cddb' }}
             >
-              Original research on AI architecture, safety, and human-AI collaboration.
+              Research on AI architecture, safety, and human-AI collaboration.
               Written by a self-taught independent thinker in rural Canada — offered openly
               for the benefit of the field.
             </p>
