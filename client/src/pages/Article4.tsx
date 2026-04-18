@@ -290,7 +290,7 @@ The research suggests: **modularity may not be a limitation to be overcome. It m
 
 [3] Bullinaria, J.A. (2007). "Understanding the emergence of modularity in neural systems." *Cognitive Science*, 31(4), 673-691.
 
-[4] Yang, L., et al. (2025). "Cross-domain analogical reasoning ability links functional connectivity patterns." *Cognitive Science Quarterly*, 8(3), 32-51.
+[4] Yang, L., et al. (2025). "Cross-domain analogical reasoning ability links functional connectome to creativity." *Thinking Skills and Creativity*, 57, 101808.
 
 [5] Klenk, M., et al. "Cross Domain Analogies for Learning Domain Theories." *DTIC Research Report*.
 
@@ -308,7 +308,7 @@ The research suggests: **modularity may not be a limitation to be overcome. It m
 
 [12] Cole, M.W. (2024). "Cognitive flexibility as the shifting of brain network flows by flexible task representations." *Current Opinion in Behavioral Sciences*.
 
-[13] Transfer of learned cognitive flexibility to novel stimuli and task sets. (2022). *Psychological Science*, 33(9), 1234-1245.
+[13] Wen, T., Geddert, R. M., Madlon-Kay, S., & Egner, T. (2023). "Transfer of Learned Cognitive Flexibility to Novel Stimuli and Task Sets." *Psychological Science*, 34(4), 435–454.
 
 [14] Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
 
@@ -320,19 +320,15 @@ The research suggests: **modularity may not be a limitation to be overcome. It m
 
 [18] Britannica. "Expert system: AI, Knowledge Representation & Reasoning." Retrieved from https://www.britannica.com/technology/expert-system
 
-[19] Araki, S. (2026). "Polymathy: From a 'historical curiosity' to a mainstream construct." *Journal of Interdisciplinary Studies*, 14(2), 45-62.
+[19] Araki, M. (2025). *Polymathy: The Foundational Source of Creativity and Innovation* [Doctoral dissertation]. University of Louisville.
 
-[20] Reddit. (2026). "'Polymathic Cognition' explained." Retrieved from https://www.reddit.com/r/Polymath/comments/1qzn2xg/polymathic_cognition_explained/
+[20] Fowler, M. "Expert Generalists." Retrieved from https://martinfowler.com/articles/expert-generalist.html
 
-[21] Medium. (2026). "How Polymath Minds Process Information." Retrieved from https://medium.com/write-a-catalyst/how-polymath-minds-process-information-60760833edba
+[21] Edutopia. (2025). "A Hands-On Approach to Interdisciplinary Learning." Retrieved from https://www.edutopia.org/article/hands-on-interdisciplinary-learning-elementary-school/
 
-[22] Fowler, M. "Expert Generalists." Retrieved from https://martinfowler.com/articles/expert-generalist.html
+[22] Clarke, M. "AI Safety Isn't a Training Problem — It's an Architecture Problem." Substack, April 2026.
 
-[23] Edutopia. (2025). "A Hands-On Approach to Interdisciplinary Learning." Retrieved from https://www.edutopia.org/article/hands-on-interdisciplinary-learning-elementary-school/
-
-[24] Clarke, M. "AI Safety Isn't a Training Problem — It's an Architecture Problem." Substack, April 2026.
-
-[25] Clarke, M. "Artificial Brains and Human Fragility." Substack, April 2026.
+[23] Clarke, M. "Artificial Brains and Human Fragility." Substack, April 2026.
 `;
 
   return (
