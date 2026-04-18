@@ -48,6 +48,19 @@ const articles = [
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
     substack: null,
   },
+  {
+    id: 4,
+    slug: "ai-adaptable-mind",
+    number: "04",
+    title: "AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety",
+    summary:
+      "Large Language Models may represent an accidental external recreation of the human polymath mind. This research explores the Neuro-Adaptive Reasoning Framework (LLM-HSAB) and connects neuroscience, cognitive science, and AI research to propose that studying human polymathic cognition offers a pathway to safer, more reliable AI systems.",
+    date: "Apr 2026",
+    readTime: "15 min read",
+    tags: ["Neuroscience", "Cognitive Science", "AI Architecture", "Polymathy"],
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
+    substack: null,
+  },
 ];
 
 export default function Home() {
