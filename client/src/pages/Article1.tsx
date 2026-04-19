@@ -8,7 +8,6 @@ import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
-import AuthorContact from "@/components/AuthorContact";
 
 export default function Article1() {
   return (
@@ -331,7 +330,6 @@ export default function Article1() {
                   Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
                 </p>
               </div>
-              <AuthorContact />
 
               <div className="rounded-sm border border-border/60 bg-card p-5">
                 <div className="mono-label text-primary mb-3">Related Research</div>

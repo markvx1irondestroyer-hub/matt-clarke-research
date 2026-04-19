@@ -278,6 +278,10 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
 
       {/* Article Hero */}
       <div className="relative overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article4-hero-2U3fwrEHqboTcEjEYSMdkS.webp)` }}
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />
         <div className="relative container pt-12 pb-16">
           <Link href="/" className="inline-flex items-center gap-2 mono-label text-muted-foreground hover:text-primary transition-colors duration-200 mb-8">
