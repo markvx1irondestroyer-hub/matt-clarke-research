@@ -5,6 +5,7 @@ import { AttributionFooter } from "@/components/AttributionFooter";
  * Artificial Brains and Human Fragility: Mental Instability in Monolithic AI Systems
  */
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -13,6 +14,9 @@ import CommentsSection from "@/components/CommentsSection";
 
 
 export default function Article2() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Helmet>

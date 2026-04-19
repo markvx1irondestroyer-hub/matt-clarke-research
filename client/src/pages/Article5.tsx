@@ -5,6 +5,7 @@ import { AttributionFooter } from "@/components/AttributionFooter";
  * Connecting Polymathic Frameworks to Educational and Institutional Systems
  */
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,9 @@ import CommentsSection from "@/components/CommentsSection";
 import { Streamdown } from "streamdown";
 
 export default function Article5() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>

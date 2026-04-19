@@ -5,6 +5,7 @@ import { AttributionFooter } from "@/components/AttributionFooter";
  * How Studying Polymathic Cognition Can Advance AI Architecture and Safety
  */
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,9 @@ import CommentsSection from "@/components/CommentsSection";
 import { Streamdown } from "streamdown";
 
 export default function Article4() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>

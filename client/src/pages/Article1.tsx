@@ -6,6 +6,7 @@ import { AttributionFooter } from "@/components/AttributionFooter";
  */
 import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
+import { useEffect } from "react";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -13,6 +14,9 @@ import CommentsSection from "@/components/CommentsSection";
 
 
 export default function Article1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Helmet>
