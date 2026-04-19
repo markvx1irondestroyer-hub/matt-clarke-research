@@ -81,7 +81,7 @@ export default function CommentsSection({ articleId, articleTitle }: CommentsSec
       {/* Substack CTA */}
       <div className="rounded-sm border border-primary/20 bg-primary/5 p-5 mb-8">
         <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-          <strong className="text-foreground">Join the broader conversation</strong> — this article is also published on Substack where you can comment, restack, and engage with other readers in the AI research community.
+          <strong className="text-foreground">Join the broader conversation</strong> — these articles are also published on Substack where you can comment, restack, and engage with other readers in the AI research community.
         </p>
         <a
           href="https://clarkescustomcreations.substack.com"
