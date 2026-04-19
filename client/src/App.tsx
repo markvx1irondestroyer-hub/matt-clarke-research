@@ -11,8 +11,8 @@ import Article3 from "./pages/Article3";
 import Article4 from "./pages/Article4";
 import Article5 from "./pages/Article5";
 import About from "./pages/About";
-
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />

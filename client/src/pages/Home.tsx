@@ -7,6 +7,7 @@ import { Link } from "wouter";
 import { ArrowRight, Calendar, BookOpen, ExternalLink } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { useAuth } from "@/_core/hooks/useAuth";
 
 const articles = [
   {
@@ -77,6 +78,10 @@ const articles = [
 ];
 
 export default function Home() {
+  // The userAuth hooks provides authentication state
+  // To implement login/logout functionality, simply call logout() or redirect to getLoginUrl()
+  let { user, loading, error, isAuthenticated, logout } = useAuth();
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />

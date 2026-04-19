@@ -6,6 +6,7 @@ import { Link } from "wouter";
 import { ExternalLink, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AuthorContact from "@/components/AuthorContact";
 
 export default function About() {
   return (
@@ -68,18 +69,8 @@ export default function About() {
             <h2 className="text-2xl font-bold text-foreground mb-6" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
               Follow &amp; Connect
             </h2>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="https://clarkescustomcreations.substack.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-sm font-semibold text-sm hover:bg-primary/90 transition-all duration-200 teal-glow"
-                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-              >
-                Subscribe on Substack <ExternalLink size={14} />
-              </a>
-            </div>
-            <p className="mt-4 text-sm text-muted-foreground" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+            <AuthorContact />
+            <p className="mt-6 text-sm text-muted-foreground" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
               New research is published on Substack. Subscribe for free to receive new posts and support independent research.
             </p>
           </div>

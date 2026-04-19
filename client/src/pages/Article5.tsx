@@ -326,6 +326,13 @@ This article draws from Grok's analysis of the four previous research articles a
                   PDF (100 KB) <ExternalLink size={11} />
                 </a>
               </div>
+
+              <div className="rounded-sm border border-border/60 bg-card p-5">
+                <div className="mono-label text-primary mb-3">About the Author</div>
+                <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
+                </p>
+              </div>
             </div>
           </aside>
         </div>

@@ -8,6 +8,7 @@ import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
+import AuthorContact from "@/components/AuthorContact";
 
 export default function Article1() {
   return (
@@ -329,11 +330,8 @@ export default function Article1() {
                 <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
                   Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
                 </p>
-                <a href="https://clarkescustomcreations.substack.com" target="_blank" rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
-                  Follow on Substack <ExternalLink size={11} />
-                </a>
               </div>
+              <AuthorContact />
 
               <div className="rounded-sm border border-border/60 bg-card p-5">
                 <div className="mono-label text-primary mb-3">Related Research</div>

@@ -191,10 +191,6 @@ Raw user interactions remain isolated and are not fed indiscriminately into trai
                 <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
                   Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
                 </p>
-                <a href="https://clarkescustomcreations.substack.com" target="_blank" rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
-                  Follow on Substack <ExternalLink size={11} />
-                </a>
               </div>
 
               <div className="rounded-sm border border-border/60 bg-card p-5">
