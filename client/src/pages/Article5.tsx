@@ -8,7 +8,7 @@ import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-re
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
-import AudioPlayer from "@/components/AudioPlayer";
+import BrowserAudioButton from "@/components/BrowserAudioButton";
 import { Streamdown } from "streamdown";
 
 export default function Article5() {
@@ -313,8 +313,8 @@ This article draws from Grok's analysis of the four previous research articles a
       {/* Article Body */}
       <main className="container py-12">
         {/* Audio Player */}
-        <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16 mb-8">
-          <AudioPlayer articleTitle="Knowledge Preservation and AI Systems" articleText={articleText} />
+        <div className="max-w-2xl mx-auto lg:mx-0 mb-8">
+          <BrowserAudioButton articleTitle="Knowledge Preservation and AI Systems" articleText={articleText} />
         </div>
         <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
           {/* Content */}

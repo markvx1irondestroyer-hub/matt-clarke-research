@@ -8,7 +8,7 @@ import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
-import AudioPlayer from "@/components/AudioPlayer";
+import BrowserAudioButton from "@/components/BrowserAudioButton";
 
 export default function Article2() {
   const articleText = `Artificial Brains and Human Fragility: Mental Instability in Monolithic AI Systems. How many children — mentally vulnerable or adaptable minds — are lost in AI? These discussions with multiple AI platforms are generated into research reports, exploring the intersection of AI safety, child mental health, and the adaptable human mind.`;
@@ -50,8 +50,8 @@ export default function Article2() {
       {/* Article Body */}
       <main className="container py-12">
         {/* Audio Player */}
-        <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16 mb-8">
-          <AudioPlayer articleTitle="Artificial Brains and Human Fragility" articleText={articleText} />
+        <div className="max-w-2xl mx-auto lg:mx-0 mb-8">
+          <BrowserAudioButton articleTitle="Artificial Brains and Human Fragility" articleText={articleText} />
         </div>
         <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
           {/* Content */}

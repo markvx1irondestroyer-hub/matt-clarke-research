@@ -2,9 +2,7 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
-import { synthesizeText } from "./_core/textToSpeech";
 import { z } from "zod";
-import { TRPCError } from "@trpc/server";
 
 export const appRouter = router({
     // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
@@ -43,29 +41,6 @@ export const appRouter = router({
       .query(async ({ input }) => {
         const { getCommentsByArticle } = await import("./db");
         return await getCommentsByArticle(input.articleSlug);
-      }),
-  }),
-
-  audio: router({
-    synthesize: publicProcedure
-      .input(z.object({
-        text: z.string(),
-        voice: z.string().optional(),
-        speed: z.number().optional(),
-        pitch: z.number().optional(),
-      }))
-      .mutation(async ({ input }) => {
-        const result = await synthesizeText(input);
-        
-        if ('error' in result) {
-          throw new TRPCError({
-            code: 'BAD_REQUEST',
-            message: result.error,
-            cause: result,
-          });
-        }
-        
-        return result;
       }),
   }),
 
