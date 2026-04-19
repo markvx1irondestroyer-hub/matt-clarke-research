@@ -9,6 +9,7 @@ import Article1 from "./pages/Article1";
 import Article2 from "./pages/Article2";
 import Article3 from "./pages/Article3";
 import Article4 from "./pages/Article4";
+import Article5 from "./pages/Article5";
 import About from "./pages/About";
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
       <Route path={"/articles/unified-knowledge-theory"} component={Article3} />
       <Route path={"/articles/ai-adaptable-mind"} component={Article4} />
       <Route path={"/article4"} component={Article4} />
+      <Route path={"/articles/knowledge-preservation-ai"} component={Article5} />
       <Route path={"/about"} component={About} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />

@@ -61,6 +61,19 @@ const articles = [
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
     substack: null,
   },
+  {
+    id: 5,
+    slug: "knowledge-preservation-ai",
+    number: "05",
+    title: "Knowledge Preservation and AI Systems: Expanding the Polymathic Framework",
+    summary:
+      "The polymathic frameworks extend beyond AI architecture into educational systems, scientific publishing, and knowledge preservation. This expansion explores how modular compartmentalization and domain-specific expertise apply to institutional systems.",
+    date: "Apr 2026",
+    readTime: "15 min read",
+    tags: ["Knowledge Preservation", "Education", "Peer Review", "Institutional Systems"],
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
+    substack: null,
+  },
 ];
 
 export default function Home() {
