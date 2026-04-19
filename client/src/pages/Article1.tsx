@@ -26,19 +26,19 @@ export default function Article1() {
             <ArrowLeft size={14} /> Back to Research
           </Link>
           <div className="flex flex-wrap gap-2 mb-4">
-            {["AI Architecture", "Cognitive Science", "Mental Health", "Modular Systems"].map(tag => (
+            {["AI Safety", "Architecture", "Foundation Problem", "Epistemology"].map(tag => (
               <span key={tag} className="mono-label text-primary/70 bg-primary/10 border border-primary/20 px-2 py-0.5 rounded-sm">{tag}</span>
             ))}
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-3 max-w-3xl" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            Artificial Brains and Human Fragility
+            AI Safety Isn't a Training Problem
           </h1>
           <p className="text-xl text-primary/80 mb-6" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-            Mental Instability in Monolithic AI Systems and the Case for Modular, Brain-Inspired Architectures
+            It's an Architecture Problem
           </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 2026</span>
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 18 min read</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 10, 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 20 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
             <span className="mono-label text-primary/60">Multi-Model Consensus Analysis</span>
           </div>
