@@ -8,11 +8,10 @@ import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-re
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
-import BrowserAudioButton from "@/components/BrowserAudioButton";
+
 import { Streamdown } from "streamdown";
 
 export default function Article4() {
-  const articleText = `AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety. Large Language Models may represent an accidental external recreation of the human polymath mind. This research explores the Neuro-Adaptive Reasoning Framework and connects neuroscience, cognitive science, and AI research to propose that studying human polymathic cognition offers a pathway to safer, more reliable AI systems.`;
   const content = `# AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety
 
 **Author:** Matt Clarke (with research synthesis by collaborative AI analysis)  
@@ -311,10 +310,6 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
 
       {/* Article Body */}
       <main className="container py-12">
-        {/* Audio Player */}
-        <div className="max-w-2xl mx-auto lg:mx-0 mb-8">
-          <BrowserAudioButton articleTitle="AI and The Adaptable Mind" articleText={articleText} />
-        </div>
         <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
           {/* Content */}
           <article>
