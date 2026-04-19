@@ -8,8 +8,11 @@ import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
+import AudioPlayer from "@/components/AudioPlayer";
 
 export default function Article1() {
+  const articleText = `AI Safety Isn't a Training Problem — It's an Architecture Problem. Most discussions about AI safety focus on training better models. But the core risks in today's AI systems are not just the result of imperfect training — they are the result of how these systems are structured. This article argues that AI safety is fundamentally an architectural problem.`;
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />
@@ -47,6 +50,10 @@ export default function Article1() {
 
       {/* Article Body */}
       <main className="container py-12">
+        {/* Audio Player */}
+        <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16 mb-8">
+          <AudioPlayer articleTitle="AI Safety Isn't a Training Problem" articleText={articleText} />
+        </div>
         <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none lg:grid lg:grid-cols-[1fr_280px] lg:gap-16">
           {/* Content */}
           <article>
