@@ -376,21 +376,21 @@ export default function Article1() {
                 </a>
               </div>
 
-              <div className="rounded-sm border border-border/60 bg-card p-5">
+              <Link href="/about" className="block rounded-sm border border-border/60 bg-card p-5 hover:border-primary/40 hover:bg-card/80 transition-all duration-200">
                 <div className="mono-label text-primary mb-3">About the Author</div>
-                <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                  Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
+                <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  Learn more about Matt Clarke and his research →
                 </p>
-              </div>
+              </Link>
 
               <div className="rounded-sm border border-border/60 bg-card p-5">
                 <div className="mono-label text-primary mb-3">Related Research</div>
                 <div className="space-y-3">
-                  <Link href="/articles/ai-safety-architecture-problem" className="block group">
+                  <Link href="/articles/ai-safety-children-adaptable-minds" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                      AI Safety as Architecture Problem →
+                      The Future Of AI Safety →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 10, 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 12, 2026</p>
                   </Link>
                   <Link href="/articles/unified-knowledge-theory" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>

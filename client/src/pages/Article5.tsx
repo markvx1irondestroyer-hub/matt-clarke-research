@@ -349,12 +349,12 @@ This article draws from Grok's analysis of the four previous research articles a
                 </a>
               </div>
 
-              <div className="rounded-sm border border-border/60 bg-card p-5">
+              <Link href="/about" className="block rounded-sm border border-border/60 bg-card p-5 hover:border-primary/40 hover:bg-card/80 transition-all duration-200">
                 <div className="mono-label text-primary mb-3">About the Author</div>
-                <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                  Matt Clarke is a self-taught independent researcher in rural Canada, working on AI safety, architecture, and human-AI collaboration.
+                <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  Learn more about Matt Clarke and his research →
                 </p>
-              </div>
+              </Link>
             </div>
           </aside>
         </div>
