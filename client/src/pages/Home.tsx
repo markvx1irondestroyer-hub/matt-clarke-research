@@ -14,6 +14,19 @@ import { useAuth } from "@/_core/hooks/useAuth";
 
 const articles = [
   {
+    id: 0,
+    slug: "post-data-hoarding-economy-authorship-spectrum",
+    number: "00",
+    title: "The Post-Data-Hoarding Economy and the Authorship Spectrum",
+    summary:
+      "A theoretical framework for sustainable AI collaboration addressing environmental and legal crises in the AI industry. Explores the Post-Data-Hoarding Economy, the Unified Knowledge Theory, and cognitive authorship as foundations for IP protection.",
+    date: "Apr 2026",
+    readTime: "18–22 min read",
+    tags: ["AI Architecture", "Sustainability", "IP Law", "Data Economics"],
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
+    substack: null,
+  },
+  {
     id: 1,
     slug: "ai-safety-architecture-problem",
     number: "01",

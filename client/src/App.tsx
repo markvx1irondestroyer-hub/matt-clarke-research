@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Article0 from "./pages/Article0";
 import Article1 from "./pages/Article1";
 import Article2 from "./pages/Article2";
 import Article3 from "./pages/Article3";
@@ -17,6 +18,7 @@ function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/articles/post-data-hoarding-economy-authorship-spectrum"} component={Article0} />
       <Route path={"/articles/ai-safety-architecture-problem"} component={Article1} />
       <Route path={"/articles/ai-safety-children-adaptable-minds"} component={Article2} />
       <Route path={"/articles/unified-knowledge-theory"} component={Article3} />
