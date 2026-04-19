@@ -59,7 +59,7 @@ const articles = [
     date: "Apr 2026",
     readTime: "15 min read",
     tags: ["Neuroscience", "Cognitive Science", "AI Architecture", "Polymathy"],
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article4-hero-2U3fwrEHqboTcEjEYSMdkS.webp",
     substack: null,
   },
   {
@@ -72,7 +72,7 @@ const articles = [
     date: "Apr 2026",
     readTime: "15 min read",
     tags: ["Knowledge Preservation", "Education", "Peer Review", "Institutional Systems"],
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article5-hero-Q25FGsCcMVBi7BPzHNvjxw.webp",
     substack: null,
   },
 ];
