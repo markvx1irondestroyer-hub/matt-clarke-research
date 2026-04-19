@@ -222,51 +222,51 @@ The technology is not the bottleneck. The bottleneck is institutional will and g
 
 ## References
 
-1. Fodor, J. A. (1983). *The Modularity of Mind: An Essay on Faculty Psychology*. MIT Press.
+1. [Fodor, J. A. (1983). *The Modularity of Mind: An Essay on Faculty Psychology*. MIT Press.](https://www.google.com/books/edition/The_Modularity_of_Mind/zHgJPwAACAAJ)
 
-2. Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+2. [Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.](https://www.google.com/books/edition/Thinking_Fast_and_Slow/ZrAqAQAACAAJ)
 
-3. Sweller, J. (1988). "Cognitive Load During Problem Solving: Effects on Learning." *Cognitive Science*, 12(2), 257-285.
+3. [Sweller, J. (1988). "Cognitive Load During Problem Solving: Effects on Learning." *Cognitive Science*, 12(2), 257-285.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1551-6708.1988.tb01386.x)
 
-4. Dunlosky, J., et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest*, 14(1), 4-58.
+4. [Dunlosky, J., et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest*, 14(1), 4-58.](https://journals.sagepub.com/doi/10.1177/1529100612453266)
 
-5. Ambrose, S. A., et al. (2010). *How Learning Works: Seven Research-Based Principles for Smart Teaching*. Jossey-Bass.
+5. [Ambrose, S. A., et al. (2010). *How Learning Works: Seven Research-Based Principles for Smart Teaching*. Jossey-Bass.](https://www.google.com/books/edition/How_Learning_Works/g-6hZPKIKgMC)
 
-6. Shazeer, N., et al. (2017). "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer." *arXiv preprint arXiv:1701.06538*.
+6. [Shazeer, N., et al. (2017). "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer." *arXiv preprint arXiv:1701.06538*.](https://arxiv.org/abs/1701.06538)
 
-7. Jiang, A. Q., et al. (2024). "Mixtral of Experts." *arXiv preprint arXiv:2401.04088*.
+7. [Jiang, A. Q., et al. (2024). "Mixtral of Experts." *arXiv preprint arXiv:2401.04088*.](https://arxiv.org/abs/2401.04088)
 
-8. Bender, E. M., & Komlódi, A. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (pp. 610-623).
+8. [Bender, E. M., & Komlódi, A. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (pp. 610-623).](https://arxiv.org/abs/2107.03374)
 
-9. Bommasani, R., et al. (2021). "On the Opportunities and Risks of Foundation Models." *arXiv preprint arXiv:2108.07258*.
+9. [Bommasani, R., et al. (2021). "On the Opportunities and Risks of Foundation Models." *arXiv preprint arXiv:2108.07258*.](https://arxiv.org/abs/2108.07258)
 
-10. Hendrycks, D., et al. (2021). "Measuring Massive Multitask Language Understanding." *arXiv preprint arXiv:2009.03300*.
+10. [Hendrycks, D., et al. (2021). "Measuring Massive Multitask Language Understanding." *arXiv preprint arXiv:2009.03300*.](https://arxiv.org/abs/2009.03300)
 
-11. Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models." *arXiv preprint arXiv:2001.08361*.
+11. [Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models." *arXiv preprint arXiv:2001.08361*.](https://arxiv.org/abs/2001.08361)
 
-12. Hoffmann, J., et al. (2022). "Training Compute-Optimal Large Language Models." *arXiv preprint arXiv:2203.15556*.
+12. [Hoffmann, J., et al. (2022). "Training Compute-Optimal Large Language Models." *arXiv preprint arXiv:2203.15556*.](https://arxiv.org/abs/2203.15556)
 
-13. Tay, Y., et al. (2022). "Efficient Transformers: A Survey." *ACM Computing Surveys*, 55(6), 1-28.
+13. [Tay, Y., et al. (2022). "Efficient Transformers: A Survey." *ACM Computing Surveys*, 55(6), 1-28.](https://dl.acm.org/doi/10.1145/3530811)
 
-14. Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." *Journal of Machine Learning Research*, 21(140), 1-67.
+14. [Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." *Journal of Machine Learning Research*, 21(140), 1-67.](http://jmlr.org/papers/v21/20-074.html)
 
-15. Devlin, J., et al. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." *arXiv preprint arXiv:1810.04805*.
+15. [Devlin, J., et al. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." *arXiv preprint arXiv:1810.04805*.](https://arxiv.org/abs/1810.04805)
 
-16. Vaswani, A., et al. (2017). "Attention Is All You Need." *Advances in Neural Information Processing Systems*, 30, 5998-6008.
+16. [Vaswani, A., et al. (2017). "Attention Is All You Need." *Advances in Neural Information Processing Systems*, 30, 5998-6008.](https://arxiv.org/abs/1706.03762)
 
-17. Hinton, G. E., et al. (2015). "Distilling the Knowledge in a Neural Network." *arXiv preprint arXiv:1503.02531*.
+17. [Hinton, G. E., et al. (2015). "Distilling the Knowledge in a Neural Network." *arXiv preprint arXiv:1503.02531*.](https://arxiv.org/abs/1503.02531)
 
-18. Frankle, J., & Carbin, M. (2019). "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks." *arXiv preprint arXiv:1803.03635*.
+18. [Frankle, J., & Carbin, M. (2019). "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks." *arXiv preprint arXiv:1803.03635*.](https://arxiv.org/abs/1803.03635)
 
-19. Lepore, J. (2015). "The Cobweb." *The New Yorker*.
+19. [Lepore, J. (2015). "The Cobweb." *The New Yorker*.](https://www.newyorker.com/magazine/2015/01/26/cobweb)
 
-20. Lynch, C. A. (2003). "Institutional Repositories: Essential Infrastructure for Scholarship in the Digital Age." *ARL Bimonthly Report*, 226, 1-7.
+20. [Lynch, C. A. (2003). "Institutional Repositories: Essential Infrastructure for Scholarship in the Digital Age." *ARL Bimonthly Report*, 226, 1-7.](https://arl.org/resources/institutional-repositories-essential-infrastructure-for-scholarship-in-the-digital-age/)
 
-21. Wilkinson, M. D., et al. (2016). "The FAIR Guiding Principles for Scientific Data Management and Stewardship." *Scientific Data*, 3, 160018.
+21. [Wilkinson, M. D., et al. (2016). "The FAIR Guiding Principles for Scientific Data Management and Stewardship." *Scientific Data*, 3, 160018.](https://www.nature.com/articles/sdata201618)
 
-22. Shmueli, G. (2010). "To Explain or to Predict?" *Statistical Science*, 25(3), 289-310.
+22. [Shmueli, G. (2010). "To Explain or to Predict?" *Statistical Science*, 25(3), 289-310.](https://www.jstor.org/stable/25651260)
 
-23. Ioannidis, J. P. (2005). "Why Most Published Research Findings Are False." *PLoS Medicine*, 2(8), e124.
+23. [Ioannidis, J. P. (2005). "Why Most Published Research Findings Are False." *PLoS Medicine*, 2(8), e124.](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)
 
 ---
 

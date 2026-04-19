@@ -235,6 +235,55 @@ export default function Article2() {
               The goal is not more powerful AI. It is more honest, more human-protective AI. Better architecture, not simply more hardware. This is not a technically impossible vision. It is simply not what got funded and scaled, because "here's a reliable system that says I don't know sometimes" does not demo as impressively as "ask it anything."
             </p>
 
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>References</h2>
+            
+            <div className="space-y-3 mb-8">
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>1. Fodor, J. A. (1983).</strong> <em>The Modularity of Mind: An Essay on Faculty Psychology</em>. MIT Press.
+                </p>
+                <a href="https://www.google.com/books/edition/The_Modularity_of_Mind/zHgJPwAACAAJ" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on Google Books <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>2. Kahneman, D. (2011).</strong> <em>Thinking, Fast and Slow</em>. Farrar, Straus and Giroux.
+                </p>
+                <a href="https://www.google.com/books/edition/Thinking_Fast_and_Slow/ZrAqAQAACAAJ" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on Google Books <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>3. Sweller, J. (1988).</strong> "Cognitive Load During Problem Solving: Effects on Learning." <em>Cognitive Science</em>, 12(2), 257-285.
+                </p>
+                <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1551-6708.1988.tb01386.x" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on Wiley Online <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>4. Bender, E. M., & Komlódi, A. (2021).</strong> "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" In <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em> (pp. 610-623).
+                </p>
+                <a href="https://arxiv.org/abs/2107.03374" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on arXiv <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>5. Bommasani, R., et al. (2021).</strong> "On the Opportunities and Risks of Foundation Models." <em>arXiv preprint arXiv:2108.07258</em>.
+                </p>
+                <a href="https://arxiv.org/abs/2108.07258" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on arXiv <ExternalLink size={12} />
+                </a>
+              </div>
+            </div>
+
             <div className="rounded-sm border border-border/60 bg-card p-5 mt-8 mb-8">
               <div className="mono-label text-muted-foreground mb-2">Attribution Note</div>
               <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>

@@ -310,6 +310,46 @@ export default function Article1() {
               The choice is still available, if narrowing: keep patching the walls, or finally fix the foundation.
             </p>
 
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>References</h2>
+            
+            <div className="space-y-3 mb-8">
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>1. Ioannidis, J. P. (2005).</strong> "Why Most Published Research Findings Are False." <em>PLoS Medicine</em>, 2(8), e124.
+                </p>
+                <a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on PLoS Medicine <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>2. Kahneman, D. (2011).</strong> <em>Thinking, Fast and Slow</em>. Farrar, Straus and Giroux.
+                </p>
+                <a href="https://www.google.com/books/edition/Thinking_Fast_and_Slow/ZrAqAQAACAAJ" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on Google Books <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>3. Bender, E. M., & Komlódi, A. (2021).</strong> "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" In <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em> (pp. 610-623).
+                </p>
+                <a href="https://arxiv.org/abs/2107.03374" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on arXiv <ExternalLink size={12} />
+                </a>
+              </div>
+              
+              <div>
+                <p className="text-sm text-foreground/90 mb-2" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+                  <strong>4. Bommasani, R., et al. (2021).</strong> "On the Opportunities and Risks of Foundation Models." <em>arXiv preprint arXiv:2108.07258</em>.
+                </p>
+                <a href="https://arxiv.org/abs/2108.07258" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 transition-colors text-xs">
+                  View on arXiv <ExternalLink size={12} />
+                </a>
+              </div>
+            </div>
+
             <div className="rounded-sm border border-border/60 bg-card p-5 mt-8">
               <div className="mono-label text-muted-foreground mb-2">About This Document</div>
               <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>

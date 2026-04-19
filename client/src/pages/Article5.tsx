@@ -219,55 +219,55 @@ The technology is not the bottleneck. The bottleneck is institutional will and t
 
 ## References
 
-1. Ioannidis, J. P. (2005). "Why Most Published Research Findings Are False." *PLoS Medicine*, 2(8), e124.
+1. [Ioannidis, J. P. (2005). "Why Most Published Research Findings Are False." *PLoS Medicine*, 2(8), e124.](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124)
 
-2. Lynch, C. A. (2003). "Institutional Repositories: Essential Infrastructure for Scholarship in the Digital Age." *ARL Bimonthly Report*, 226, 1-7.
+2. [Lynch, C. A. (2003). "Institutional Repositories: Essential Infrastructure for Scholarship in the Digital Age." *ARL Bimonthly Report*, 226, 1-7.](https://arl.org/resources/institutional-repositories-essential-infrastructure-for-scholarship-in-the-digital-age/)
 
-3. Wilkinson, M. D., et al. (2016). "The FAIR Guiding Principles for Scientific Data Management and Stewardship." *Scientific Data*, 3, 160018.
+3. [Wilkinson, M. D., et al. (2016). "The FAIR Guiding Principles for Scientific Data Management and Stewardship." *Scientific Data*, 3, 160018.](https://www.nature.com/articles/sdata201618)
 
-4. Dunlosky, J., et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest*, 14(1), 4-58.
+4. [Dunlosky, J., et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest*, 14(1), 4-58.](https://journals.sagepub.com/doi/10.1177/1529100612453266)
 
-5. Ambrose, S. A., et al. (2010). *How Learning Works: Seven Research-Based Principles for Smart Teaching*. Jossey-Bass.
+5. [Ambrose, S. A., et al. (2010). *How Learning Works: Seven Research-Based Principles for Smart Teaching*. Jossey-Bass.](https://www.google.com/books/edition/How_Learning_Works/g-6hZPKIKgMC)
 
-6. Sweller, J. (1988). "Cognitive Load During Problem Solving: Effects on Learning." *Cognitive Science*, 12(2), 257-285.
+6. [Sweller, J. (1988). "Cognitive Load During Problem Solving: Effects on Learning." *Cognitive Science*, 12(2), 257-285.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1551-6708.1988.tb01386.x)
 
-7. Shazeer, N., et al. (2017). "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer." *arXiv preprint arXiv:1701.06538*.
+7. [Shazeer, N., et al. (2017). "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer." *arXiv preprint arXiv:1701.06538*.](https://arxiv.org/abs/1701.06538)
 
-8. Jiang, A. Q., et al. (2024). "Mixtral of Experts." *arXiv preprint arXiv:2401.04088*.
+8. [Jiang, A. Q., et al. (2024). "Mixtral of Experts." *arXiv preprint arXiv:2401.04088*.](https://arxiv.org/abs/2401.04088)
 
-9. Bender, E. M., & Komlódi, A. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (pp. 610-623).
+9. [Bender, E. M., & Komlódi, A. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (pp. 610-623).](https://arxiv.org/abs/2107.03374)
 
-10. Bommasani, R., et al. (2021). "On the Opportunities and Risks of Foundation Models." *arXiv preprint arXiv:2108.07258*.
+10. [Bommasani, R., et al. (2021). "On the Opportunities and Risks of Foundation Models." *arXiv preprint arXiv:2108.07258*.](https://arxiv.org/abs/2108.07258)
 
-11. Hendrycks, D., et al. (2021). "Measuring Massive Multitask Language Understanding." *arXiv preprint arXiv:2009.03300*.
+11. [Hendrycks, D., et al. (2021). "Measuring Massive Multitask Language Understanding." *arXiv preprint arXiv:2009.03300*.](https://arxiv.org/abs/2009.03300)
 
-12. Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models." *arXiv preprint arXiv:2001.08361*.
+12. [Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models." *arXiv preprint arXiv:2001.08361*.](https://arxiv.org/abs/2001.08361)
 
-13. Hoffmann, J., et al. (2022). "Training Compute-Optimal Large Language Models." *arXiv preprint arXiv:2203.15556*.
+13. [Hoffmann, J., et al. (2022). "Training Compute-Optimal Large Language Models." *arXiv preprint arXiv:2203.15556*.](https://arxiv.org/abs/2203.15556)
 
-14. Tay, Y., et al. (2022). "Efficient Transformers: A Survey." *ACM Computing Surveys*, 55(6), 1-28.
+14. [Tay, Y., et al. (2022). "Efficient Transformers: A Survey." *ACM Computing Surveys*, 55(6), 1-28.](https://dl.acm.org/doi/10.1145/3530811)
 
-15. Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." *Journal of Machine Learning Research*, 21(140), 1-67.
+15. [Raffel, C., et al. (2020). "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." *Journal of Machine Learning Research*, 21(140), 1-67.](http://jmlr.org/papers/v21/20-074.html)
 
-16. Devlin, J., et al. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." *arXiv preprint arXiv:1810.04805*.
+16. [Devlin, J., et al. (2019). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." *arXiv preprint arXiv:1810.04805*.](https://arxiv.org/abs/1810.04805)
 
-17. Vaswani, A., et al. (2017). "Attention Is All You Need." *Advances in Neural Information Processing Systems*, 30, 5998-6008.
+17. [Vaswani, A., et al. (2017). "Attention Is All You Need." *Advances in Neural Information Processing Systems*, 30, 5998-6008.](https://arxiv.org/abs/1706.03762)
 
-18. Hinton, G. E., et al. (2015). "Distilling the Knowledge in a Neural Network." *arXiv preprint arXiv:1503.02531*.
+18. [Hinton, G. E., et al. (2015). "Distilling the Knowledge in a Neural Network." *arXiv preprint arXiv:1503.02531*.](https://arxiv.org/abs/1503.02531)
 
-19. Frankle, J., & Carbin, M. (2019). "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks." *arXiv preprint arXiv:1803.03635*.
+19. [Frankle, J., & Carbin, M. (2019). "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks." *arXiv preprint arXiv:1803.03635*.](https://arxiv.org/abs/1803.03635)
 
-20. Lepore, J. (2015). "The Cobweb." *The New Yorker*.
+20. [Lepore, J. (2015). "The Cobweb." *The New Yorker*.](https://www.newyorker.com/magazine/2015/01/26/cobweb)
 
-21. Shmueli, G. (2010). "To Explain or to Predict?" *Statistical Science*, 25(3), 289-310.
+21. [Shmueli, G. (2010). "To Explain or to Predict?" *Statistical Science*, 25(3), 289-310.](https://www.jstor.org/stable/25651260)
 
-22. Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+22. [Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.](https://www.google.com/books/edition/The_Structure_of_Scientific_Revolutions/Mqn6AAAAIAAJ)
 
-23. Popper, K. R. (1959). *The Logic of Scientific Discovery*. Routledge.
+23. [Popper, K. R. (1959). *The Logic of Scientific Discovery*. Routledge.](https://www.google.com/books/edition/The_Logic_of_Scientific_Discovery/OMEbAQAAIAAJ)
 
-24. Merton, R. K. (1973). *The Sociology of Science: Theoretical and Empirical Investigations*. University of Chicago Press.
+24. [Merton, R. K. (1973). *The Sociology of Science: Theoretical and Empirical Investigations*. University of Chicago Press.](https://www.google.com/books/edition/The_Sociology_of_Science/VKwbAQAAIAAJ)
 
-25. Ziman, J. M. (1968). *Public Knowledge: An Essay Concerning the Social Dimension of Science*. Cambridge University Press.
+25. [Ziman, J. M. (1968). *Public Knowledge: An Essay Concerning the Social Dimension of Science*. Cambridge University Press.](https://www.google.com/books/edition/Public_Knowledge/4XZBAAAAMAAJ)
 
 ---
 
