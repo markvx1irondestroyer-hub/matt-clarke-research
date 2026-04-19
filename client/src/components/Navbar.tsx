@@ -13,6 +13,7 @@ export default function Navbar() {
   const links = [
     { href: "/", label: "Research" },
     { href: "/about", label: "About" },
+    { href: "/resources", label: "Resources" },
   ];
 
   const isActive = (href: string) => {

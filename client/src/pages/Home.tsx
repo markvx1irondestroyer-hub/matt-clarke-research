@@ -8,6 +8,7 @@ import { Link } from "wouter";
 import { ArrowRight, Calendar, BookOpen, ExternalLink } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CommentsSection from "@/components/CommentsSection";
 import { useAuth } from "@/_core/hooks/useAuth";
 
 const articles = [
@@ -262,33 +263,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Call to Discussion */}
-      <section className="container py-12">
-        <div className="rounded-sm border border-primary/20 bg-primary/5 p-8 md:p-12">
-          <div className="max-w-2xl">
-            <div className="mono-label text-primary mb-3">Join the Conversation</div>
-            <h2
-              className="text-2xl md:text-3xl font-bold text-foreground mb-4"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
-              These ideas need scrutiny, debate, and collaboration.
-            </h2>
-            <p
-              className="text-muted-foreground leading-relaxed mb-6"
-              style={{ fontFamily: "'IBM Plex Serif', serif" }}
-            >
-              This research is offered openly. Whether you agree, disagree, or want to build on these frameworks — your perspective matters. Leave comments on any article, or reach out directly on Substack.
-            </p>
-            <a
-              href="https://clarkescustomcreations.substack.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-sm font-semibold text-sm hover:bg-primary/90 transition-all duration-200 teal-glow"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
-              Follow &amp; Discuss on Substack <ExternalLink size={14} />
-            </a>
-          </div>
+      {/* Join the Conversation - Comments Section */}
+      <section className="container py-16">
+        <div className="max-w-2xl mx-auto">
+          <CommentsSection articleId="home" articleTitle="Research Hub" />
         </div>
       </section>
 

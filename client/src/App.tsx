@@ -11,6 +11,7 @@ import Article3 from "./pages/Article3";
 import Article4 from "./pages/Article4";
 import Article5 from "./pages/Article5";
 import About from "./pages/About";
+import Resources from "./pages/Resources";
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
@@ -23,6 +24,7 @@ function Router() {
       <Route path={"/article4"} component={Article4} />
       <Route path={"/articles/knowledge-preservation-ai"} component={Article5} />
       <Route path={"/about"} component={About} />
+      <Route path={"/resources"} component={Resources} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
