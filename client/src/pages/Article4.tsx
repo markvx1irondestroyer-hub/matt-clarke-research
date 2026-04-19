@@ -1,3 +1,4 @@
+import { AttributionFooter } from "@/components/AttributionFooter";
 /*
  * DESIGN: Dark Academic / Research Terminal
  * Article 4: AI and The Adaptable Mind - Complete Content
@@ -365,6 +366,13 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
           <CommentsSection articleId="article-04" articleTitle="AI and The Adaptable Mind" />
         </div>
       </main>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-2xl mx-auto">
+          <AttributionFooter />
+        </div>
+      </section>
 
       <Footer />
     </div>

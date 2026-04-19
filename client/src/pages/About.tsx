@@ -8,6 +8,7 @@ import { ExternalLink, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AuthorContact from "@/components/AuthorContact";
+import { AttributionFooter } from "@/components/AttributionFooter";
 
 export default function About() {
   return (
@@ -104,6 +105,13 @@ export default function About() {
           </div>
         </div>
       </main>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-3xl">
+          <AttributionFooter />
+        </div>
+      </section>
 
       <Footer />
     </div>

@@ -1,3 +1,4 @@
+import { AttributionFooter } from "@/components/AttributionFooter";
 /*
  * DESIGN: Dark Academic / Research Terminal
  * Article 3: The Unified Knowledge Theory
@@ -288,6 +289,13 @@ Raw user interactions remain isolated and are not fed indiscriminately into trai
           <CommentsSection articleId="article-3" articleTitle="The Unified Knowledge Theory: A Safe, Scalable Foundation for Human-AI Collaboration" />
         </div>
       </main>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-2xl mx-auto">
+          <AttributionFooter />
+        </div>
+      </section>
 
       <Footer />
     </div>

@@ -9,6 +9,7 @@ import { ArrowRight, Calendar, BookOpen, ExternalLink } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
+import { AttributionFooter } from "@/components/AttributionFooter";
 import { useAuth } from "@/_core/hooks/useAuth";
 
 const articles = [
@@ -267,6 +268,13 @@ export default function Home() {
       <section className="container py-16">
         <div className="max-w-2xl mx-auto">
           <CommentsSection articleId="home" articleTitle="Research Hub" />
+        </div>
+      </section>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-2xl mx-auto">
+          <AttributionFooter />
         </div>
       </section>
 

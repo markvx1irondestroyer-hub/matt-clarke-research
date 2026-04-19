@@ -1,3 +1,4 @@
+import { AttributionFooter } from "@/components/AttributionFooter";
 /*
  * DESIGN: Dark Academic / Research Terminal
  * Article 2: AI Artificial Brains Report - Complete Content
@@ -347,6 +348,13 @@ export default function Article2() {
           <CommentsSection articleId="article-2" articleTitle="Artificial Brains and Human Fragility" />
         </div>
       </main>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-2xl mx-auto">
+          <AttributionFooter />
+        </div>
+      </section>
 
       <Footer />
     </div>

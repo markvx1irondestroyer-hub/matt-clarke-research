@@ -1,3 +1,4 @@
+import { AttributionFooter } from "@/components/AttributionFooter";
 /*
  * DESIGN: Dark Academic / Research Terminal
  * Article 5: Knowledge Preservation and AI Systems - Expansion Report
@@ -364,6 +365,13 @@ This article draws from Grok's analysis of the four previous research articles a
           <CommentsSection articleId="article-05" articleTitle="Knowledge Preservation and AI Systems" />
         </div>
       </main>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-2xl mx-auto">
+          <AttributionFooter />
+        </div>
+      </section>
 
       <Footer />
     </div>

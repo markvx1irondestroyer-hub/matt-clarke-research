@@ -8,6 +8,7 @@ import { ArrowLeft, ExternalLink, Database, BookOpen, Zap, Image } from "lucide-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
+import { AttributionFooter } from "@/components/AttributionFooter";
 
 export default function Resources() {
   return (
@@ -339,6 +340,13 @@ export default function Resources() {
           </section>
         </div>
       </main>
+
+      {/* Attribution Footer */}
+      <section className="container py-12">
+        <div className="max-w-4xl mx-auto">
+          <AttributionFooter />
+        </div>
+      </section>
 
       <Footer />
     </div>
