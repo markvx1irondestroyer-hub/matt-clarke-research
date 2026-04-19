@@ -3,6 +3,7 @@
  * Article 4: AI and The Adaptable Mind - Complete Content
  * How Studying Polymathic Cognition Can Advance AI Architecture and Safety
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -12,6 +13,22 @@ import CommentsSection from "@/components/CommentsSection";
 import { Streamdown } from "streamdown";
 
 export default function Article4() {
+  return (
+    <>
+      <Helmet>
+        <title>AI and The Adaptable Mind: Polymathic Cognition and AI Architecture | Matt Clarke</title>
+        <meta name="description" content="LLMs may be an accidental recreation of the human polymath mind. This research connects neuroscience, cognitive science, and AI to propose safer AI systems." />
+        <meta name="keywords" content="AI architecture, polymathy, cognitive science, neuroscience, AI safety" />
+        <meta property="og:title" content="AI and The Adaptable Mind: Polymathic Cognition and AI Architecture" />
+        <meta property="og:description" content="How studying human polymathic cognition could lead to safer, more reliable AI systems." />
+        <meta property="og:type" content="article" />
+      </Helmet>
+      <Article4Content />
+    </>
+  );
+}
+
+function Article4Content() {
   const content = `# AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety
 
 **Author:** Matt Clarke (with research synthesis by collaborative AI analysis)  
@@ -282,6 +299,8 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article4-hero-2U3fwrEHqboTcEjEYSMdkS.webp)` }}
+          role="img"
+          aria-label="Human brain merged with circuit patterns illustrating polymathic cognition and AI architecture"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />
         <div className="relative container pt-12 pb-16">
@@ -351,3 +370,4 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
     </div>
   );
 }
+

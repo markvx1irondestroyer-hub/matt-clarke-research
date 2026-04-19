@@ -3,6 +3,7 @@
  * Article 5: Knowledge Preservation and AI Systems - Expansion Report
  * Connecting Polymathic Frameworks to Educational and Institutional Systems
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -12,6 +13,22 @@ import CommentsSection from "@/components/CommentsSection";
 import { Streamdown } from "streamdown";
 
 export default function Article5() {
+  return (
+    <>
+      <Helmet>
+        <title>Knowledge Preservation and AI Systems: Expanding the Polymathic Framework | Matt Clarke</title>
+        <meta name="description" content="Extending polymathic frameworks beyond AI architecture into educational systems, scientific publishing, and institutional knowledge preservation." />
+        <meta name="keywords" content="knowledge preservation, education, peer review, institutional systems, AI" />
+        <meta property="og:title" content="Knowledge Preservation and AI Systems: Expanding the Polymathic Framework" />
+        <meta property="og:description" content="How modular compartmentalization applies to educational and institutional systems." />
+        <meta property="og:type" content="article" />
+      </Helmet>
+      <Article5Content />
+    </>
+  );
+}
+
+function Article5Content() {
   const content = `# Knowledge Preservation and AI Systems: Expanding the Polymathic Framework
 
 **Author:** Matt Clarke (with Grok analysis and synthesis)  

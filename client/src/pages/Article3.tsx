@@ -2,6 +2,7 @@
  * DESIGN: Dark Academic / Research Terminal
  * Article 3: The Unified Knowledge Theory
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -12,6 +13,14 @@ import CommentsSection from "@/components/CommentsSection";
 export default function Article3() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>The Unified Knowledge Theory: A Safe, Scalable Foundation for Human-AI Collaboration | Matt Clarke</title>
+        <meta name="description" content="A framework proposing structural separation of verified public knowledge, user-sovereign private data, and company-specific AI models for a safer AI ecosystem." />
+        <meta name="keywords" content="AI architecture, privacy, knowledge systems, AI safety, data sovereignty" />
+        <meta property="og:title" content="The Unified Knowledge Theory" />
+        <meta property="og:description" content="One trusted public library + user-controlled personal storage — a privacy-respecting AI architecture framework." />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <Navbar />
 
       {/* Article Hero */}
@@ -19,6 +28,8 @@ export default function Article3() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp)` }}
+          role="img"
+          aria-label="Interconnected knowledge nodes representing a unified public-private AI knowledge framework"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />
         <div className="relative container pt-12 pb-16">

@@ -3,6 +3,7 @@
  * Home: Full-width hero with glowing image, research index with article cards
  * Colors: #0D1117 bg, #00E5CC teal accent, IBM Plex Serif body, Space Grotesk display
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ArrowRight, Calendar, BookOpen, ExternalLink } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -84,6 +85,14 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>Matt Clarke | Independent AI Research</title>
+        <meta name="description" content="Independent research on AI safety, architecture, and human-AI collaboration by Matt Clarke — a self-taught researcher in rural Canada." />
+        <meta name="keywords" content="AI safety, AI architecture, cognitive science, knowledge systems, AI alignment" />
+        <meta property="og:title" content="Matt Clarke | Independent AI Research" />
+        <meta property="og:description" content="Independent research on AI safety, architecture, and human-AI collaboration." />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Navbar />
 
       {/* Hero Section */}
@@ -93,6 +102,8 @@ export default function Home() {
           style={{
             backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/hero-bg-oUZdCjmvazDAQ8nYGJLxjX.webp)`,
           }}
+          role="img"
+          aria-label="Abstract digital corridor representing AI architecture and structural design"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="absolute inset-0 dot-grid opacity-30" />
@@ -166,6 +177,7 @@ export default function Home() {
                     src={article.image}
                     alt={article.title}
                     className="w-full h-52 md:h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
 

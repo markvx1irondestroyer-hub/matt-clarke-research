@@ -3,6 +3,7 @@
  * Article 1: AI Artificial Brains Report - Complete Content
  * Mental Instability in Monolithic AI Systems and the Case for Modular, Brain-Inspired Architectures
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -13,6 +14,14 @@ import CommentsSection from "@/components/CommentsSection";
 export default function Article1() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>AI Safety Isn't a Training Problem — It's an Architecture Problem | Matt Clarke</title>
+        <meta name="description" content="Most AI safety discussions focus on training. This article argues the core risks are structural — built into the architecture itself, not fixable by patching outputs." />
+        <meta name="keywords" content="AI safety, AI architecture, alignment, training, structural design" />
+        <meta property="og:title" content="AI Safety Isn't a Training Problem — It's an Architecture Problem" />
+        <meta property="og:description" content="A structural critique of AI safety: why training-focused fixes miss the real problem." />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <Navbar />
 
       {/* Article Hero */}
@@ -20,6 +29,8 @@ export default function Article1() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article1-thumb-Vt3dzcsYoqtXX6oBXBQFrX.webp)` }}
+          role="img"
+          aria-label="Architectural diagram symbolizing AI system structure and safety design"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />
         <div className="relative container pt-12 pb-16">

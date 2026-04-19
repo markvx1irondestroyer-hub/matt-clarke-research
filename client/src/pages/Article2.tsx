@@ -3,6 +3,7 @@
  * Article 2: AI Artificial Brains Report - Complete Content
  * Artificial Brains and Human Fragility: Mental Instability in Monolithic AI Systems
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -13,6 +14,14 @@ import CommentsSection from "@/components/CommentsSection";
 export default function Article2() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>The Future of AI Safety — Children, Mental Instabilities, and Adaptable Minds | Matt Clarke</title>
+        <meta name="description" content="Exploring the intersection of AI safety, child mental health, and adaptable cognition through multi-platform AI discussions turned research reports." />
+        <meta name="keywords" content="AI safety, children, mental health, cognitive science, AI vulnerability" />
+        <meta property="og:title" content="The Future of AI Safety — Children, Mental Instabilities, and Adaptable Minds" />
+        <meta property="og:description" content="How many vulnerable minds are lost in AI? A research report on AI safety and child mental health." />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <Navbar />
 
       {/* Article Hero */}
@@ -20,6 +29,8 @@ export default function Article2() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article2-thumb-eTfaENbi9a2przdj3rjFnH.webp)` }}
+          role="img"
+          aria-label="Child silhouette overlaid with neural network patterns representing AI and cognitive vulnerability"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/70 to-background" />
         <div className="relative container pt-12 pb-16">

@@ -2,6 +2,7 @@
  * DESIGN: Dark Academic / Research Terminal
  * About: Author bio, research focus, contact/follow links
  */
+import { Helmet } from "react-helmet-async";
 import { Link } from "wouter";
 import { ExternalLink, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -11,6 +12,14 @@ import AuthorContact from "@/components/AuthorContact";
 export default function About() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <Helmet>
+        <title>About Matt Clarke | Independent AI Researcher</title>
+        <meta name="description" content="Learn about Matt Clarke, a self-taught independent AI researcher in rural Canada focused on AI safety architecture, knowledge systems, and cognitive science." />
+        <meta name="keywords" content="Matt Clarke, AI researcher, AI safety, independent research, rural Canada" />
+        <meta property="og:title" content="About Matt Clarke | Independent AI Researcher" />
+        <meta property="og:description" content="Self-taught independent thinker researching AI safety from the ground up." />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Navbar />
 
       <main className="container py-16">
