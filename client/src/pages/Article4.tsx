@@ -4,7 +4,7 @@
  * How Studying Polymathic Cognition Can Advance AI Architecture and Safety
  */
 import { Link } from "wouter";
-import { ArrowLeft, Calendar, BookOpen } from "lucide-react";
+import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
@@ -312,6 +312,21 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
               <Streamdown>{content}</Streamdown>
             </div>
           </article>
+
+          {/* Sidebar */}
+          <aside className="mt-12 lg:mt-0">
+            <div className="sticky top-24 space-y-6">
+              <div className="rounded-sm border border-primary/20 bg-primary/5 p-5 mb-6">
+                <div className="mono-label text-primary mb-3 flex items-center gap-1.5">
+                  <Download size={12} /> Download Article
+                </div>
+                <a href="/manus-storage/Article4-AI-Adaptable-Mind_e936d50b.pdf" download
+                  className="inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
+                  PDF (104 KB) <ExternalLink size={11} />
+                </a>
+              </div>
+            </div>
+          </aside>
         </div>
 
         {/* Comments Section */}

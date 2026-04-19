@@ -4,7 +4,7 @@
  * Mental Instability in Monolithic AI Systems and the Case for Modular, Brain-Inspired Architectures
  */
 import { Link } from "wouter";
-import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle } from "lucide-react";
+import { ArrowLeft, Calendar, BookOpen, ExternalLink, MessageCircle, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
@@ -314,6 +314,16 @@ export default function Article1() {
           {/* Sidebar */}
           <aside className="mt-12 lg:mt-0">
             <div className="sticky top-24 space-y-6">
+              <div className="rounded-sm border border-primary/20 bg-primary/5 p-5 mb-6">
+                <div className="mono-label text-primary mb-3 flex items-center gap-1.5">
+                  <Download size={12} /> Download Article
+                </div>
+                <a href="/manus-storage/Article1-AI-Safety-Architecture_eee15557.pdf" download
+                  className="inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
+                  PDF (91 KB) <ExternalLink size={11} />
+                </a>
+              </div>
+
               <div className="rounded-sm border border-border/60 bg-card p-5">
                 <div className="mono-label text-primary mb-3">About the Author</div>
                 <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>

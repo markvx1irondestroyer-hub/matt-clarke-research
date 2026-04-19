@@ -4,7 +4,7 @@
  * Connecting Polymathic Frameworks to Educational and Institutional Systems
  */
 import { Link } from "wouter";
-import { ArrowLeft, Calendar, BookOpen } from "lucide-react";
+import { ArrowLeft, Calendar, BookOpen, ExternalLink, Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CommentsSection from "@/components/CommentsSection";
@@ -313,6 +313,21 @@ This article draws from Grok's analysis of the four previous research articles a
               <Streamdown>{content}</Streamdown>
             </div>
           </article>
+
+          {/* Sidebar */}
+          <aside className="mt-12 lg:mt-0">
+            <div className="sticky top-24 space-y-6">
+              <div className="rounded-sm border border-primary/20 bg-primary/5 p-5 mb-6">
+                <div className="mono-label text-primary mb-3 flex items-center gap-1.5">
+                  <Download size={12} /> Download Article
+                </div>
+                <a href="/manus-storage/Article5-Expansion-Report_ac1df1a6.pdf" download
+                  className="inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
+                  PDF (100 KB) <ExternalLink size={11} />
+                </a>
+              </div>
+            </div>
+          </aside>
         </div>
 
         {/* Comments Section */}
