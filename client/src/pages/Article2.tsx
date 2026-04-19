@@ -31,16 +31,16 @@ export default function Article2() {
             ))}
           </div>
           <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-3 max-w-3xl" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            AI Safety Isn't a Training Problem
+            Artificial Brains and Human Fragility
           </h1>
           <p className="text-xl text-primary/80 mb-6" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-            It's an Architecture Problem
+            Mental Instability in Monolithic AI Systems and the Case for Modular, Brain-Inspired Architectures
           </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 10, 2026</span>
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 20 min read</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 12, 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 15 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
-            <span className="mono-label text-primary/60">Multi-Model Consensus Analysis</span>
+            <span className="mono-label text-primary/60">Collaborative Analysis</span>
           </div>
         </div>
       </div>
