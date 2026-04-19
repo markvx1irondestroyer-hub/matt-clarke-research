@@ -23,7 +23,7 @@ const articles = [
     date: "Apr 2026",
     readTime: "18–22 min read",
     tags: ["AI Architecture", "Sustainability", "IP Law", "Data Economics"],
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article0-hero-Hzo8oXiUmNC54DBymKEEDh.webp",
     substack: null,
   },
   {
