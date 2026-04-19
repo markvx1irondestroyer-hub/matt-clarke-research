@@ -31,7 +31,7 @@ export default function Article0() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp)`,
+              backgroundImage: `url(https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article0-hero-Hzo8oXiUmNC54DBymKEEDh.webp)`,
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
