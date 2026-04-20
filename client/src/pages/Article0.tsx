@@ -419,6 +419,9 @@ function Article0Content() {
           <p className="mb-6">
             <strong>The "Reasoning Layer" Competition:</strong> The most direct form of competition in this model would be at the reasoning layer—the algorithms and architectures that determine how a model processes information, generates responses, and applies tools. Companies that develop superior reasoning capabilities would attract more users and generate more revenue, regardless of whether they maintain a proprietary data advantage.
           </p>
+          <p className="mb-4">
+            <strong>Addressing Antitrust Concerns:</strong> A legitimate concern with shared infrastructure is the potential for antitrust violations or market manipulation. However, the "Expert Node" subscription model provides a natural safeguard. By allowing companies to differentiate through specialized, domain-specific models rather than through exclusive access to foundational data, the UKT framework actually reduces the incentive for monopolistic behavior. Regulatory frameworks could further protect competition by requiring transparency in Expert Node pricing, preventing predatory bundling, and ensuring that the shared foundational layer remains accessible to new market entrants on fair terms.
+          </p>
         </div>
 
         <div className="mb-10">
@@ -448,7 +451,7 @@ function Article0Content() {
             The concept of the "polymathic mind" describes a cognitive style characterized by the ability to synthesize knowledge across diverse disciplines, recognize complex patterns, and rapidly test new information against existing frameworks. <a href="#ref-9" className="text-primary hover:text-primary/80">[9]</a> Historically, the polymathic mind has been the province of exceptional individuals—Renaissance polymaths, natural philosophers, and contemporary interdisciplinary researchers who possess both the intellectual capacity and the opportunity to develop expertise across multiple domains.
           </p>
           <p className="mb-4">
-            Large language models may represent an accidental external recreation of the polymathic mind. A model trained on the entire accessible internet has, in a sense, absorbed the collective knowledge of human civilization. It can draw connections between disparate domains, recognize patterns that span multiple disciplines, and generate novel syntheses that would be difficult for a human specialist to produce. This is not consciousness or true understanding, but it is a form of high-bandwidth cognition—the ability to process and integrate information across a vast knowledge space.
+            Large language models may represent an accidental external recreation of the polymathic mind. A model trained on the entire accessible internet has, in a sense, absorbed the collective knowledge of human civilization. It can draw connections between disparate domains, recognize patterns that span multiple disciplines, and generate novel syntheses that would be difficult for a human specialist to produce. This is not consciousness or true understanding, but it is a form of high-bandwidth cognition—the ability to process and integrate information across a vast knowledge space. This concept connects directly to the Neuro-Adaptive Reasoning Framework (LHSAB) discussed in our earlier research, where portable reasoning engines with low switching costs enable flexible, polymathic reasoning across multiple domains.
           </p>
           <p className="mb-6">
             This raises a fundamental question: if an AI system can perform polymathic reasoning, what does it mean for human authorship and intellectual contribution? The answer, this analysis proposes, lies not in the capabilities of the AI system itself, but in the intentionality and judgment of the human who directs and evaluates its outputs.
@@ -481,26 +484,26 @@ function Article0Content() {
       {/* References */}
       <div className="mb-12">
         <h2 className="text-2xl font-bold text-foreground mb-6" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>References</h2>
-        <div className="space-y-3 text-sm">
-          <p id="ref-1">[1] International Energy Agency (IEA). (2020). Global data centre energy demand by data centre type, 2010–2022.</p>
-          <p id="ref-2">[2] International Energy Agency (IEA). (2025). Energy and AI: Energy Demand from AI.</p>
-          <p id="ref-3">[3] Brookings Institution. (April 2026). Global energy demands within the AI regulatory landscape.</p>
-          <p id="ref-4">[4] Brookings Institution. (2025). AI, data centers, and water.</p>
-          <p id="ref-5">[5] de Vries, A., & Gao, J. (January 2026). The carbon and water footprints of data centers. <em>Patterns</em> (ScienceDirect).</p>
-          <p id="ref-6">[6] MIT News Office. (January 2025). Explained: The environmental impact of generative AI.</p>
-          <p id="ref-7">[7] Abbott, A., & Marar, S. (March 2025). Is Data Really a Barrier to Entry? Rethinking Competition Regulation in Generative AI. Mercatus Center, George Mason University.</p>
-          <p id="ref-8">[8] University of Cambridge. (May 2021). Can federated learning save the world?</p>
+        <div className="space-y-3 text-sm [&_a]:underline">
+          <p id="ref-1">[1] International Energy Agency (IEA). (2020). <a href="https://www.iea.org/reports/energy-and-ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80">Global data centre energy demand by data centre type, 2010–2022.</a></p>
+          <p id="ref-2">[2] International Energy Agency (IEA). (2025). <a href="https://www.iea.org/reports/energy-and-ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Energy and AI: Energy Demand from AI.</a></p>
+          <p id="ref-3">[3] Brookings Institution. (April 2026). <a href="https://www.brookings.edu/articles/global-energy-demands-within-the-ai-regulatory-landscape/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Global energy demands within the AI regulatory landscape.</a></p>
+          <p id="ref-4">[4] Brookings Institution. (2025). <a href="https://www.brookings.edu/articles/ai-data-centers-and-water/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">AI, data centers, and water.</a></p>
+          <p id="ref-5">[5] de Vries, A., & Gao, J. (January 2026). <a href="https://www.cell.com/patterns/fulltext/S2666-38992500278-8" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">The carbon and water footprints of data centers.</a> <em>Patterns</em> (ScienceDirect).</p>
+          <p id="ref-6">[6] MIT News Office. (January 2025). <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Explained: The environmental impact of generative AI.</a></p>
+          <p id="ref-7">[7] Abbott, A., & Marar, S. (March 2025). <a href="https://www.mercatus.org/research/working-papers/data-really-barrier-entry-rethinking-competition-regulation-generative-ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Is Data Really a Barrier to Entry? Rethinking Competition Regulation in Generative AI.</a> Mercatus Center, George Mason University.</p>
+          <p id="ref-8">[8] University of Cambridge. (May 2021). <a href="https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Can federated learning save the world?</a></p>
           <p id="ref-9">[9] ResearchGate. (November 2024). The Polymathic Mind: Understanding the Traits, Behaviors, and Impact of Cross-Disciplinary Thinkers.</p>
           <p id="ref-10">[10] Polymath Mind Substack. (n.d.). Mostly Harmless: What Douglas Adams Can Teach Us About AI.</p>
-          <p id="ref-11">[11] U.S. Patent and Trademark Office (USPTO). (November 28, 2025). Revised Inventorship Guidance for AI-Assisted Inventions. Federal Register.</p>
-          <p id="ref-12">[12] Holland & Knight. (February 3, 2026). The Human Element: USPTO Clarifies Inventorship for AI-Assisted Inventions. IP/Decode Blog.</p>
+          <p id="ref-11">[11] U.S. Patent and Trademark Office (USPTO). (November 28, 2025). <a href="https://www.uspto.gov/subscription-center/2025/revised-inventorship-guidance-ai-assisted-inventions" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Revised Inventorship Guidance for AI-Assisted Inventions.</a> Federal Register.</p>
+          <p id="ref-12">[12] Holland & Knight. (February 3, 2026). <a href="https://www.hklaw.com/en/insights/publications/2026/02/the-human-element-uspto-clarifies-inventorship" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">The Human Element: USPTO Clarifies Inventorship for AI-Assisted Inventions.</a> IP/Decode Blog.</p>
           <p id="ref-13">[13] Alshanetsky, E. (October 30, 2025). Where does human thinking end and AI begin? An AI authorship protocol aims to show the difference. <em>The Conversation</em>.</p>
-          <p id="ref-14">[14] Baker Donelson. (2025). Supreme Court Denies Certiorari in Thaler v. Perlmutter: AI Cannot Be an Author Under the Copyright Act.</p>
-          <p id="ref-15">[15] Carbon Brief. (September 15, 2025). AI: Five charts that put data-centre energy use and emissions into context.</p>
-          <p id="ref-16">[16] Goldman Sachs Research. (2025). AI to drive 165% increase in data center power demand by 2030.</p>
-          <p id="ref-17">[17] Deloitte. (2025). GenAI power consumption creates need for more sustainable data centers.</p>
+          <p id="ref-14">[14] Baker Donelson. (2025). <a href="https://www.bakerdonelson.com/supreme-court-denies-certiorari-in-thaler-v-perlmutter-ai-cannot-be-an-author-under-the-copyright-act" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Supreme Court Denies Certiorari in Thaler v. Perlmutter: AI Cannot Be an Author Under the Copyright Act.</a></p>
+          <p id="ref-15">[15] Carbon Brief. (September 15, 2025). <a href="https://www.carbonbrief.org/ai-five-charts-that-put-data-centre-energy-use-and-emissions-into-context/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">AI: Five charts that put data-centre energy use and emissions into context.</a></p>
+          <p id="ref-16">[16] Goldman Sachs Research. (2025). <a href="https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">AI to drive 165% increase in data center power demand by 2030.</a></p>
+          <p id="ref-17">[17] Deloitte. (2025). <a href="https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2025/genai-power-consumption-creates-need-for-more-sustainable-data-centers.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">GenAI power consumption creates need for more sustainable data centers.</a></p>
           <p id="ref-18">[18] Pew Research Center. (October 24, 2025). What we know about energy use at US data centers amid the AI boom.</p>
-          <p id="ref-19">[19] Sabella, M. (2025). Unleashing Data Power for Green Federated Learning. arXiv.</p>
+          <p id="ref-19">[19] Sabella, M. (2025). <a href="https://arxiv.org/abs/2303.14604" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline">Unleashing Data Power for Green Federated Learning.</a> arXiv.</p>
           <p id="ref-20">[20] Hart, N. (November 24, 2025). From Data Hoarding To Data Strategy: Building AI That Actually Works. Forbes Technology Council.</p>
         </div>
         <p className="text-sm text-muted-foreground mt-6" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
