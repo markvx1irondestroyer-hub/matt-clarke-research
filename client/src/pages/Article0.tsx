@@ -95,6 +95,18 @@ export default function Article0() {
             {/* Sidebar */}
             <aside className="w-full lg:w-72 flex-shrink-0">
               <div className="sticky top-24 space-y-8">
+                {/* PDF Download */}
+                <div>
+                  <a
+                    href="/manus-storage/article0-pdf"
+                    download="The_Post-Data-Hoarding_Economy_and_the_Authorship_Spectrum.pdf"
+                    className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-primary text-primary-foreground rounded-sm font-semibold text-sm hover:bg-primary/90 transition-all duration-200"
+                    style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+                  >
+                    📄 Download PDF
+                  </a>
+                </div>
+
                 {/* Tags */}
                 <div>
                   <div className="mono-label text-primary mb-3 flex items-center gap-1.5">
@@ -124,8 +136,8 @@ export default function Article0() {
                   <Link href="/articles/ai-adaptable-mind" className="block text-sm text-primary hover:text-primary/80 transition-colors">
                     → AI and The Adaptable Mind
                   </Link>
-                  <Link href="/articles/unified-knowledge-theory" className="block text-sm text-primary hover:text-primary/80 transition-colors">
-                    → The Unified Knowledge Theory
+                  <Link href="/articles/knowledge-preservation-ai" className="block text-sm text-primary hover:text-primary/80 transition-colors">
+                    → Knowledge Preservation and AI Systems: Expanding the Polymathic Framework
                   </Link>
                 </div>
               </div>
@@ -179,7 +191,7 @@ function Article0Content() {
           These two crises are not independent. Both are symptoms of the same underlying dynamic: an industry that has scaled rapidly without developing the cooperative, systemic infrastructure needed to support that scale responsibly. The "data moat" strategy—the race to hoard the largest proprietary datasets, build the largest data centers, and train the largest models—has produced remarkable capabilities, but it has also produced a fragile, resource-intensive, and legally ambiguous ecosystem.
         </p>
         <p className="mb-6">
-          This analysis proposes that both crises may be addressed, at least in part, by a theoretical shift in how the AI industry conceptualizes competition, collaboration, and the boundaries of human agency. The first part examines the environmental and economic case for what we term the "Post-Data-Hoarding Economy"—a hypothetical model in which AI companies compete on the quality of their reasoning and the sophistication of their tools rather than the size of their data stores. The second part examines the "Authorship Spectrum"—a conceptual framework for understanding the continuum of human-AI collaboration and its implications for intellectual property law.
+          This analysis proposes that both crises may be addressed, at least in part, by a theoretical shift in how the AI industry conceptualizes competition, collaboration, and the boundaries of human agency. The first part examines the environmental and economic case for what I term the "Post-Data-Hoarding Economy"—a hypothetical model in which AI companies compete on the quality of their reasoning and the sophistication of their tools rather than the size of their data stores. The second part examines the "Authorship Spectrum"—a conceptual framework for understanding the continuum of human-AI collaboration and its implications for intellectual property law.
         </p>
       </div>
 
@@ -451,7 +463,7 @@ function Article0Content() {
             The concept of the "polymathic mind" describes a cognitive style characterized by the ability to synthesize knowledge across diverse disciplines, recognize complex patterns, and rapidly test new information against existing frameworks. <a href="#ref-9" className="text-primary hover:text-primary/80">[9]</a> Historically, the polymathic mind has been the province of exceptional individuals—Renaissance polymaths, natural philosophers, and contemporary interdisciplinary researchers who possess both the intellectual capacity and the opportunity to develop expertise across multiple domains.
           </p>
           <p className="mb-4">
-            Large language models may represent an accidental external recreation of the polymathic mind. A model trained on the entire accessible internet has, in a sense, absorbed the collective knowledge of human civilization. It can draw connections between disparate domains, recognize patterns that span multiple disciplines, and generate novel syntheses that would be difficult for a human specialist to produce. This is not consciousness or true understanding, but it is a form of high-bandwidth cognition—the ability to process and integrate information across a vast knowledge space. This concept connects directly to the Neuro-Adaptive Reasoning Framework (LHSAB) discussed in our earlier research, where portable reasoning engines with low switching costs enable flexible, polymathic reasoning across multiple domains.
+            Large language models may represent an accidental external recreation of the polymathic mind. A model trained on the entire accessible internet has, in a sense, absorbed the collective knowledge of human civilization. It can draw connections between disparate domains, recognize patterns that span multiple disciplines, and generate novel syntheses that would be difficult for a human specialist to produce. This is not consciousness or true understanding, but it is a form of high-bandwidth cognition—the ability to process and integrate information across a vast knowledge space. This concept connects directly to the Neuro-Adaptive Reasoning Framework (LLM-HSAB: Large Language Model - Highly Skilled Adaptive Brain) discussed in our earlier research, where portable reasoning engines with low switching costs enable flexible, polymathic reasoning across multiple domains.
           </p>
           <p className="mb-6">
             This raises a fundamental question: if an AI system can perform polymathic reasoning, what does it mean for human authorship and intellectual contribution? The answer, this analysis proposes, lies not in the capabilities of the AI system itself, but in the intentionality and judgment of the human who directs and evaluates its outputs.
