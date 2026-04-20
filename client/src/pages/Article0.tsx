@@ -60,13 +60,13 @@ This analysis proposes a theoretical framework for addressing both crises simult
 
 The International Energy Agency projects that global data center electricity consumption could reach **945 TWh by 2030** under base-case scenarios, with high-end estimates approaching **1,200 TWh by 2035**. This represents a dramatic acceleration from historical trends. For context, the entire United States consumed approximately 4,000 TWh of electricity in 2023. A single sector—AI and data centers—could consume nearly a quarter of current US electricity consumption within a decade.
 
-![Figure 1: Global Data Centre Electricity Demand: 2010-2030 (AI-Driven Growth vs. Pre-AI Baseline)](/manus-storage/fig1-electricity-demand.png)
+![Figure 1: Global Data Centre Electricity Demand: 2010-2030 (AI-Driven Growth vs. Pre-AI Baseline)](/manus-storage/figure1-electricity-demand_a3b5dbf1.png)
 
 **Figure 1:** Global Data Centre Electricity Demand: 2010-2030 (AI-Driven Growth vs. Pre-AI Baseline). Sources: IEA Energy & AI Report (2025); Brookings Institution (2026); Deloitte (2025)
 
 This energy consumption is not distributed evenly. The majority is concentrated in a small number of hyperscale data centers operated by Amazon, Google, Microsoft, and Meta. Each of these companies is building massive new facilities to support AI training and inference. The capital expenditure is staggering: combined spending by these four companies on AI infrastructure is projected to exceed $650 billion in 2026 alone.
 
-![Figure 2: Big Tech AI Infrastructure Capital Expenditure: 2023-2026 (Combined ~$650B+ projected for 2026)](/manus-storage/fig2-capex.png)
+![Figure 2: Big Tech AI Infrastructure Capital Expenditure: 2023-2026 (Combined ~$650B+ projected for 2026)](/manus-storage/figure2-capex_746df681.png)
 
 **Figure 2:** Big Tech AI Infrastructure Capital Expenditure: 2023-2026. Sources: CNBC (Feb 2026); Fortune (Feb 2026); LinkedIn/RBC Wealth (2025); tech-insider.org (Apr 2026)
 
@@ -74,7 +74,7 @@ This energy consumption is not distributed evenly. The majority is concentrated 
 
 Alongside electricity consumption, AI data centers are consuming extraordinary quantities of freshwater. A typical data center consumes approximately 1.1 million liters per day. Large data centers consume 18.9 million liters per day. The North American data center infrastructure alone is estimated to consume approximately 765 billion liters annually—equivalent to the total annual water consumption of New York City.
 
-![Figure 3: AI & Data Centre Water Consumption — Selected Benchmarks (Log Scale)](/manus-storage/fig3-water-consumption.png)
+![Figure 3: AI & Data Centre Water Consumption — Selected Benchmarks (Log Scale)](/manus-storage/figure3-water_9d9b6903.png)
 
 **Figure 3:** AI & Data Centre Water Consumption — Selected Benchmarks (Log Scale). Sources: Brookings (Nov 2025); de Vries-Gao, Patterns/SciencesDirect (Jan 2026); Reuters (Apr 2026); ELI (Oct 2025)
 
@@ -145,13 +145,17 @@ This spectrum allows for more nuanced legal frameworks that recognize the realit
 
 ### 2.6 Connecting to the Polymathic Framework
 
-This concept connects directly to the [Neuro-Adaptive Reasoning Framework (LLM-HSAB: Large Language Mind/Highly Skill Adaptable Brain)](/articles/ai-adaptable-mind) discussed in our earlier research, where portable reasoning engines with low switching costs enable flexible, polymathic reasoning across multiple domains. The UKT framework suggests that such portable engines should be built on top of verified knowledge infrastructure, with clear boundaries between different domains and explicit acknowledgment of human contribution and expertise.
+This concept connects directly to the [Neuro-Adaptive Reasoning Framework (LLM-HSAB: Large Language Mind/Highly Skill Adaptable Brain)](/articles/ai-adaptable-mind) discussed in our earlier research on [AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety](/articles/ai-adaptable-mind), where portable reasoning engines with low switching costs enable flexible, polymathic reasoning across multiple domains. The UKT framework suggests that such portable engines should be built on top of verified knowledge infrastructure, with clear boundaries between different domains and explicit acknowledgment of human contribution and expertise.
 
 ---
 
 ## Part III: Toward a Sustainable AI Ecosystem
 
 ### 3.1 Environmental Sustainability
+
+![Figure 4: AI Carbon Footprint in Context (Million Tonnes CO2-equivalent)](/manus-storage/figure4-carbon_adcfb395.png)
+
+**Figure 4:** AI Carbon Footprint in Context. Sources: de Vries-Gao, Patterns/SciencesDirect (Jan 2026); Xiao et al., Nature Sustainability (Nov 2025); Climate Impact (Oct 2025)
 
 The Unified Knowledge Theory addresses environmental sustainability by reducing resource consumption at multiple levels:
 
