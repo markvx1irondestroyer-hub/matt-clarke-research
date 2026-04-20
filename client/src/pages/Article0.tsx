@@ -299,6 +299,24 @@ This article presents a theoretical framework for addressing environmental and l
                 </a>
               </div>
 
+              <div className="rounded-sm border border-border/60 bg-card p-5">
+                <div className="mono-label text-primary mb-3">Related Research</div>
+                <div className="space-y-3">
+                  <Link href="/articles/ai-adaptable-mind" className="block group">
+                    <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                      AI and The Adaptable Mind →
+                    </p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                  </Link>
+                  <Link href="/articles/knowledge-preservation-ai" className="block group">
+                    <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                      Knowledge Preservation and AI Systems →
+                    </p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                  </Link>
+                </div>
+              </div>
+
               <Link href="/about" className="block rounded-sm border border-border/60 bg-card p-5 hover:border-primary/40 hover:bg-card/80 transition-all duration-200">
                 <div className="mono-label text-primary mb-3">About the Author</div>
                 <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors" style={{ fontFamily: "'IBM Plex Serif', serif" }}>

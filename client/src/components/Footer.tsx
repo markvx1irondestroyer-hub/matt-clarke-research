@@ -2,6 +2,9 @@
  * DESIGN: Dark Academic / Research Terminal
  * Footer: Minimal, monospace metadata, teal accent links
  */
+import { Link } from "wouter";
+import { ArrowLeft } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border/60 mt-20">
@@ -14,6 +17,9 @@ export default function Footer() {
             <div className="mono-label text-muted-foreground">
               Independent Research &amp; Development · Rural Canada
             </div>
+            <Link href="/" className="inline-flex items-center gap-2 mono-label text-muted-foreground hover:text-primary transition-colors duration-200 mt-3">
+              <ArrowLeft size={12} /> Back to Home
+            </Link>
           </div>
           <div className="flex flex-col md:flex-row gap-4 md:gap-8">
             <a
