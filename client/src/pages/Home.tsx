@@ -14,6 +14,19 @@ import { useAuth } from "@/_core/hooks/useAuth";
 
 const articles = [
   {
+    id: -1,
+    slug: "polymathic-mind-blueprint",
+    number: null,
+    title: "The Polymathic Mind as a Blueprint",
+    summary:
+      "Why We Must Design AI as a Safe, Trusted Cognitive Extension Not a Replacement Intelligence. Understanding how the human polymathic mind blends abstract reasoning with lived experience, and why this matters for AI architecture and safety.",
+    date: "Apr 2026",
+    readTime: "12–15 min read",
+    tags: ["AI Architecture", "Cognitive Science", "Human-AI Collaboration", "Safety Design"],
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/polymathic-mind-thumb-BwbjJzLANFsB6UVasETnWc.webp",
+    substack: null,
+  },
+  {
     id: 0,
     slug: "post-data-hoarding-economy-authorship-spectrum",
     number: "00",
@@ -201,12 +214,14 @@ export default function Home() {
                   <div>
                     {/* Article Number + Tags */}
                     <div className="flex flex-wrap items-center gap-3 mb-4">
-                      <span
-                        className="text-primary/40 font-bold text-3xl leading-none select-none"
-                        style={{ fontFamily: "'IBM Plex Mono', monospace" }}
-                      >
-                        {article.number}
-                      </span>
+                      {article.number && (
+                        <span
+                          className="text-primary/40 font-bold text-3xl leading-none select-none"
+                          style={{ fontFamily: "'IBM Plex Mono', monospace" }}
+                        >
+                          {article.number}
+                        </span>
+                      )}
                       <div className="flex flex-wrap gap-2">
                         {article.tags.map((tag) => (
                           <span

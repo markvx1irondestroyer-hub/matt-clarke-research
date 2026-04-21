@@ -11,6 +11,7 @@ import Article2 from "./pages/Article2";
 import Article3 from "./pages/Article3";
 import Article4 from "./pages/Article4";
 import Article5 from "./pages/Article5";
+import ArticlePolymathicMind from "./pages/ArticlePolymathicMind";
 import About from "./pages/About";
 import Resources from "./pages/Resources";
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/articles/polymathic-mind-blueprint"} component={ArticlePolymathicMind} />
       <Route path={"/articles/post-data-hoarding-economy-authorship-spectrum"} component={Article0} />
       <Route path={"/articles/ai-safety-architecture-problem"} component={Article1} />
       <Route path={"/articles/ai-safety-children-adaptable-minds"} component={Article2} />
