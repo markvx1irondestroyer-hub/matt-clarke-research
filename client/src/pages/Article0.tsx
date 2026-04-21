@@ -293,9 +293,9 @@ This article presents a theoretical framework for addressing environmental and l
                 <div className="mono-label text-primary mb-3 flex items-center gap-1.5">
                   <Download size={12} /> Download Article
                 </div>
-                <a href="/manus-storage/Article0-Post-Data-Hoarding-Economy_c3538858.pdf" download
+                <a href="https://files.manuscdn.com/user_upload_by_module/session_file/310519663569588948/fGNlxJICkeWmcIxz.pdf" download
                   className="inline-flex items-center gap-1.5 mono-label text-primary hover:text-primary/80 transition-colors">
-                  PDF (72 KB) <ExternalLink size={11} />
+                  PDF (Complete) <ExternalLink size={11} />
                 </a>
               </div>
 
