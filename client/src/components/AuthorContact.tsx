@@ -62,29 +62,5 @@ export default function AuthorContact() {
     },
   ];
 
-  return (
-    <div className="rounded-sm border border-border/60 bg-card p-5 mt-6">
-      <div className="mono-label text-primary mb-4">Connect</div>
-      <div className="space-y-3">
-        {socialLinks.map((link) => {
-          const IconComponent = link.icon;
-          return (
-            <a
-              key={link.label}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200 w-full"
-            >
-              <IconComponent size={14} className={link.color} />
-              <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-                {link.label}
-              </span>
-              <ExternalLink size={11} className="ml-auto opacity-50" />
-            </a>
-          );
-        })}
-      </div>
-    </div>
-  );
+  return null;
 }
