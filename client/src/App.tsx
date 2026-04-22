@@ -11,6 +11,7 @@ import Article2 from "./pages/Article2";
 import Article3 from "./pages/Article3";
 import Article4 from "./pages/Article4";
 import Article5 from "./pages/Article5";
+import Article6 from "./pages/Article6";
 import ArticlePolymathicMind from "./pages/ArticlePolymathicMind";
 import About from "./pages/About";
 import Resources from "./pages/Resources";
@@ -27,6 +28,7 @@ function Router() {
       <Route path={"/articles/ai-adaptable-mind"} component={Article4} />
       <Route path={"/article4"} component={Article4} />
       <Route path={"/articles/knowledge-preservation-ai"} component={Article5} />
+      <Route path={"/articles/control-based-model-authorship"} component={Article6} />
       <Route path={"/about"} component={About} />
       <Route path={"/resources"} component={Resources} />
       <Route path={"/404"} component={NotFound} />

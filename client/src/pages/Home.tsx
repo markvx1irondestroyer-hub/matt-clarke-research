@@ -104,6 +104,19 @@ const articles = [
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article5-hero-Q25FGsCcMVBi7BPzHNvjxw.webp",
     substack: null,
   },
+  {
+    id: 6,
+    slug: "control-based-model-authorship",
+    number: "06",
+    title: "A Control-Based Model of Authorship in AI-Mediated Research",
+    summary:
+      "The rapid integration of AI into research workflows has generated a crisis of authorship attribution. This paper proposes a control-based model, arguing that authorship is determined by sustained conceptual control, evaluative judgment, and iterative refinement rather than mere generation.",
+    date: "Apr 2026",
+    readTime: "12 min read",
+    tags: ["AI Authorship", "Research Ethics", "IP Law", "Collaboration"],
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article0-thumb-clean-R53eGeE4bYkp7R2QMaDNrt.webp",
+    substack: null,
+  },
 ];
 
 export default function Home() {
