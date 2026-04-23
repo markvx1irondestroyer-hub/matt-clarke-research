@@ -85,12 +85,38 @@ export default function About() {
             </p>
           </div>
 
-          {/* Attribution */}
-          <div className="rounded-sm border border-border/60 bg-card p-6">
-            <div className="mono-label text-primary mb-3">Attribution &amp; Usage</div>
-            <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
-              All research published here is offered openly for the benefit of the field. If you adopt, reference, or build upon these frameworks, please credit the origin: Matt Clarke, Independent Researcher, Rural Canada. This work reflects original analysis and independent thinking — please treat it accordingly.
-            </p>
+          {/* Connect on Social Media */}
+          <div className="rounded-sm border border-primary/20 bg-primary/5 p-6">
+            <div className="mono-label text-primary mb-4">Connect</div>
+            <div className="space-y-3">
+              <a href="mailto:th3artistunknown@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Email</span>
+              </a>
+              <a href="https://clarkescustomcreations.substack.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Substack</span>
+              </a>
+              <a href="https://www.facebook.com/share/1Hxtd7JoSG/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-blue-500 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Facebook - Clarkes Custom Creations</span>
+              </a>
+              <a href="https://www.facebook.com/share/14X8eiJQU2U/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-blue-500 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Facebook - Personal</span>
+              </a>
+              <a href="https://x.com/ClarkeCustoms" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-slate-400 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>X (Twitter)</span>
+              </a>
+              <a href="https://www.instagram.com/clarkescustomcreation?igsh=MWE4d283cXZ2OXY4Yw==" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-pink-500 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Instagram</span>
+              </a>
+              <a href="https://youtube.com/@clarkescustomcreations?si=d5FR80nMn-pCjo6U" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-red-600 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>YouTube - Clarkes Custom Creations</span>
+              </a>
+              <a href="https://youtube.com/@th3artist-uknown?si=SGHT3TvIk2v-TWIm" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-red-600 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>YouTube - TH3 Artist-Unknown Albums</span>
+              </a>
+              <a href="https://www.tiktok.com/@clarkescustomcrea?_r=1&_t=ZS-95fcJ9v8oQ4" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-slate-300 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>TikTok</span>
+              </a>
+            </div>
           </div>
 
           {/* Back to Research */}
