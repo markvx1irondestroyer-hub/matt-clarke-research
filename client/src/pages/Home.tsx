@@ -206,6 +206,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quote Box Section */}
+      <section className="container py-12">
+        <div className="rounded-sm border border-primary/30 bg-primary/5 p-8 md:p-12 backdrop-blur-sm">
+          <div className="max-w-2xl">
+            <p
+              className="text-lg md:text-xl text-foreground leading-relaxed mb-8"
+              style={{ fontFamily: "'IBM Plex Serif', serif" }}
+            >
+              Is the future of AI safe and sustainable? Will it collapse human intellectual innovation or expand it beyond anything we've seen? I think that depends on us. Not just what we build, but how we use it… and how loud we are about what we want it to become. Our children are growing up alongside this. Their minds are adaptable but also vulnerable. So what do you think? Is AI replacing thought, or pushing it further? Join the conversation.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="#comments"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-primary/20 border border-primary/40 text-primary rounded-sm font-semibold text-sm hover:bg-primary/30 transition-all duration-200"
+                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+              >
+                Leave a Comment Below
+              </a>
+              <a
+                href="/about"
+                onClick={() => setTimeout(() => window.scrollTo(0, 0), 0)}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-primary/20 border border-primary/40 text-primary rounded-sm font-semibold text-sm hover:bg-primary/30 transition-all duration-200"
+                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+              >
+                Connect On Social Media
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Research Index */}
       <section id="research" className="container py-16">
         <div className="flex items-center gap-4 mb-12">
@@ -319,7 +350,7 @@ export default function Home() {
       </section>
 
       {/* Join the Conversation - Comments Section */}
-      <section className="container py-16">
+      <section id="comments" className="container py-16">
         <div className="max-w-2xl mx-auto">
           <CommentsSection articleId="home" articleTitle="Research Hub" />
         </div>
