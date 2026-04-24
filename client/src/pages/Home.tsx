@@ -162,8 +162,8 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="absolute inset-0 dot-grid opacity-30" />
 
-        <div className="relative container py-28 md:py-20">
-          <div className="max-w-3xl">
+        <div className="relative container py-28 md:py-20 flex items-center justify-center">
+          <div className="max-w-3xl text-center md:text-left">
             <div className="mono-label text-primary mb-4 flex items-center gap-2">
               <span className="inline-block w-8 h-px bg-primary" />
               Independent Research &amp; Development
@@ -210,9 +210,9 @@ export default function Home() {
       <section className="container py-0 -mt-12 md:-mt-16">
         <div className="max-w-2xl">
           {/* Quote box directly underneath */}
-          <div className="rounded-sm border border-primary/30 bg-primary/5 p-8 md:p-12 backdrop-blur-sm">
+          <div className="rounded-sm border border-primary/30 bg-card p-8 md:p-8 backdrop-blur-sm">
             <p
-              className="text-lg md:text-xl text-foreground leading-relaxed mb-8"
+              className="text-base md:text-lg text-foreground leading-relaxed mb-6"
               style={{ fontFamily: "'IBM Plex Serif', serif" }}
             >
               Is the future of AI safe and sustainable? Will it collapse human intellectual innovation or expand it beyond anything we've seen? I think that depends on us. Not just what we build, but how we use it… and how loud we are about what we want it to become. Our children are growing up alongside this. Their minds are adaptable but also vulnerable. So what do you think? Is AI replacing thought, or pushing it further? Join the conversation.
@@ -255,9 +255,10 @@ export default function Home() {
 
         <div className="flex flex-col gap-8">
           {articles.map((article) => (
-            <article key={article.id} className="article-card rounded-sm overflow-hidden bg-card">
-              <div className="flex flex-col md:flex-row">
-                {/* Article Image */}
+            <Link href={`/articles/${article.slug}`} className="block">
+              <article key={article.id} className="article-card rounded-sm overflow-hidden bg-card hover:shadow-lg hover:border-primary/50 transition-all duration-200 cursor-pointer">
+                <div className="flex flex-col md:flex-row">
+                  {/* Article Image */}
                 <div className="md:w-72 lg:w-80 flex-shrink-0">
                   <img
                     src={article.image}
@@ -310,7 +311,6 @@ export default function Home() {
                       {article.summary}
                     </p>
                   </div>
-
                   {/* Footer: Meta + Actions */}
                   <div className="flex flex-wrap items-center justify-between gap-4">
                     <div className="flex items-center gap-4">
@@ -329,23 +329,21 @@ export default function Home() {
                           href={article.substack}
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
                           className="mono-label text-muted-foreground hover:text-primary transition-colors duration-200 flex items-center gap-1"
                         >
                           Substack <ExternalLink size={11} />
                         </a>
                       )}
-                      <Link
-                        href={`/articles/${article.slug}`}
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 text-primary rounded-sm text-sm font-medium hover:bg-primary/20 transition-all duration-200"
-                        style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-                      >
+                      <div onClick={(e) => e.stopPropagation()} className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 text-primary rounded-sm text-sm font-medium hover:bg-primary/20 transition-all duration-200" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                         Read Article <ArrowRight size={14} />
-                      </Link>
+                      </div>
                     </div>
                   </div>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </Link>
           ))}
         </div>
       </section>
