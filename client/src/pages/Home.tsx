@@ -255,8 +255,8 @@ export default function Home() {
 
         <div className="flex flex-col gap-8">
           {articles.map((article) => (
-            <Link href={`/articles/${article.slug}`} className="block">
-              <article key={article.id} className="article-card rounded-sm overflow-hidden bg-card hover:shadow-lg hover:border-primary/50 transition-all duration-200 cursor-pointer">
+            <Link key={article.id} href={`/articles/${article.slug}`} className="block">
+              <article className="article-card rounded-sm overflow-hidden bg-card hover:shadow-lg hover:border-primary/50 transition-all duration-200 cursor-pointer">
                 <div className="flex flex-col md:flex-row">
                   {/* Article Image */}
                 <div className="md:w-72 lg:w-80 flex-shrink-0">
