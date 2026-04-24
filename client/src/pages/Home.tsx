@@ -162,7 +162,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="absolute inset-0 dot-grid opacity-30" />
 
-        <div className="relative container py-28 md:py-40">
+        <div className="relative container py-28 md:py-20">
           <div className="max-w-3xl">
             <div className="mono-label text-primary mb-4 flex items-center gap-2">
               <span className="inline-block w-8 h-px bg-primary" />
@@ -207,7 +207,7 @@ export default function Home() {
       </section>
 
       {/* Quote Box Section with Buttons */}
-      <section className="container py-0">
+      <section className="container py-0 -mt-12 md:-mt-16">
         <div className="max-w-2xl">
           {/* Buttons on top */}
           <div className="flex flex-wrap gap-4 mb-1">
