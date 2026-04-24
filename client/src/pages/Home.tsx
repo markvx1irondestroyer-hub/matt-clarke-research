@@ -323,15 +323,15 @@ export default function Home() {
                     </div>
                     <div className="flex items-center gap-3">
                       {article.substack && (
-                        <a
-                          href={article.substack}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="mono-label text-muted-foreground hover:text-primary transition-colors duration-200 flex items-center gap-1"
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            window.open(article.substack, '_blank');
+                          }}
+                          className="mono-label text-muted-foreground hover:text-primary transition-colors duration-200 flex items-center gap-1 bg-none border-none cursor-pointer p-0"
                         >
                           Substack <ExternalLink size={11} />
-                        </a>
+                        </button>
                       )}
                       <div onClick={(e) => e.stopPropagation()} className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 text-primary rounded-sm text-sm font-medium hover:bg-primary/20 transition-all duration-200" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                         Read Article <ArrowRight size={14} />
