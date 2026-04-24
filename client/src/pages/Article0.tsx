@@ -233,6 +233,8 @@ The technology is not the bottleneck. The bottleneck is institutional will and g
 
 15. [CNBC - Big Tech AI Infrastructure Spending](https://www.cnbc.com/2026/02/big-tech-ai-infrastructure-spending/)
 
+**DOI:** https://doi.org/10.5281/zenodo.19713915
+
 ---
 
 ## Author's Note

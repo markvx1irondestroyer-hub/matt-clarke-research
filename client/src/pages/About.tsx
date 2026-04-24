@@ -89,6 +89,9 @@ export default function About() {
           <div className="rounded-sm border border-primary/20 bg-primary/5 p-6">
             <div className="mono-label text-primary mb-4">Connect</div>
             <div className="space-y-3">
+              <a href="https://orcid.org/0009-0009-0736-5591" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-green-500 transition-colors duration-200 w-full">
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>ORCID: 0009-0009-0736-5591</span>
+              </a>
               <a href="mailto:th3artistunknown@gmail.com" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200 w-full">
                 <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Email</span>
               </a>
@@ -96,7 +99,7 @@ export default function About() {
                 <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Substack</span>
               </a>
               <a href="https://www.facebook.com/share/1Hxtd7JoSG/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-blue-500 transition-colors duration-200 w-full">
-                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Facebook - Clarkes Custom Creations</span>
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Facebook - Clarkescustomcreations</span>
               </a>
               <a href="https://www.facebook.com/share/14X8eiJQU2U/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-blue-500 transition-colors duration-200 w-full">
                 <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Facebook - Personal</span>
@@ -108,7 +111,7 @@ export default function About() {
                 <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>Instagram</span>
               </a>
               <a href="https://youtube.com/@clarkescustomcreations?si=d5FR80nMn-pCjo6U" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-red-600 transition-colors duration-200 w-full">
-                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>YouTube - Clarkes Custom Creations</span>
+                <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>YouTube - Clarkescustomcreations</span>
               </a>
               <a href="https://youtube.com/@th3artist-uknown?si=SGHT3TvIk2v-TWIm" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-red-600 transition-colors duration-200 w-full">
                 <span style={{ fontFamily: "'IBM Plex Serif', serif" }}>YouTube - TH3 Artist-Unknown Albums</span>
@@ -121,13 +124,13 @@ export default function About() {
 
           {/* Back to Research */}
           <div className="mt-10">
-            <Link
-              href="/"
+            <button
+              onClick={() => window.scrollTo(0, 0)}
               className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
               style={{ fontFamily: "'Space Grotesk', sans-serif" }}
             >
-              <ArrowRight size={16} className="rotate-180" /> Back to Research
-            </Link>
+              <ArrowRight size={16} className="rotate-180" /> Back to Top
+            </button>
           </div>
         </div>
       </main>

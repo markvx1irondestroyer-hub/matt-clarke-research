@@ -129,6 +129,11 @@ export default function Article6() {
       <p style={{ fontFamily: "'IBM Plex Serif', serif" }} className="text-foreground/90 leading-relaxed mb-6">
         The debate over AI authorship cannot be resolved through binary classifications. AI systems are generative synthesis tools that operate over public knowledge but lack true intent and epistemic humility. Authorship, therefore, should be understood as a function of control—the ability to originate ideas, direct inquiry, and evaluate outcomes.
       </p>
+
+      <h2 className="text-2xl font-bold text-foreground mt-10 mb-5" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>References</h2>
+      <div className="space-y-2 text-sm text-foreground/85" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
+        <p><strong>DOI:</strong> <a href="https://doi.org/10.5281/zenodo.19713249" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">https://doi.org/10.5281/zenodo.19713249</a></p>
+      </div>
     </ArticleLayout>
   );
 }
