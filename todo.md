@@ -24,11 +24,14 @@
 - [ ] Consistent Related Research sidebars on Articles 1, 2, 3
 
 ## Homepage & Discovery
-- [ ] Homepage article preview cards with thumbnails
-- [ ] Article index/table of contents on homepage
+- [x] Homepage article preview cards with thumbnails
+- [x] Article index/table of contents on homepage
 - [ ] Research timeline visualization on About page
 - [ ] Article filtering by tags (AI Safety, Architecture, Sustainability, etc.)
 - [ ] Search functionality for articles
+- [x] Centered hero header on homepage
+- [x] CTA box matches article card styling
+- [x] Full article boxes clickable with hover effects
 
 ## About Page
 - [ ] Author bio and research focus

@@ -163,7 +163,7 @@ export default function Home() {
         <div className="absolute inset-0 dot-grid opacity-30" />
 
         <div className="relative container py-28 md:py-20 flex items-center justify-center">
-          <div className="max-w-3xl text-center md:text-left">
+          <div className="max-w-3xl text-center">
             <div className="mono-label text-primary mb-4 flex items-center gap-2">
               <span className="inline-block w-8 h-px bg-primary" />
               Independent Research &amp; Development
@@ -298,9 +298,7 @@ export default function Home() {
                       className="text-xl md:text-2xl font-bold text-foreground mb-3 leading-tight hover:text-primary transition-colors duration-200"
                       style={{ fontFamily: "'Space Grotesk', sans-serif" }}
                     >
-                      <Link href={`/articles/${article.slug}`}>
-                        {article.title}
-                      </Link>
+                      {article.title}
                     </h3>
 
                     {/* Summary */}
@@ -340,8 +338,8 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  </div>
                 </div>
+              </div>
               </article>
             </Link>
           ))}
