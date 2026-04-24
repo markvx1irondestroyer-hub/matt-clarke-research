@@ -129,7 +129,7 @@ export default function ArticleLayout({
                 </div>
               )}
 
-              <Link href="/about" className="block rounded-sm border border-border/60 bg-card p-5 hover:border-primary/40 hover:bg-card/80 transition-all duration-200">
+              <Link href="/about" onClick={() => setTimeout(() => window.scrollTo(0, 0), 0)} className="block rounded-sm border border-border/60 bg-card p-5 hover:border-primary/40 hover:bg-card/80 transition-all duration-200">
                 <div className="mono-label text-primary mb-3">About the Author</div>
                 <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors" style={{ fontFamily: "'IBM Plex Serif', serif" }}>
                   Learn more about Matt Clarke and his research →

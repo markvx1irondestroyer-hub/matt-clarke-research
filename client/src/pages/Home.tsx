@@ -127,7 +127,20 @@ const articles = [
     date: "Apr 2026",
     readTime: "12 min read",
     tags: ["Consciousness", "AI Philosophy", "Neuroscience", "Existentialism", "Qualia"],
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article0-thumb-clean-R53eGeE4bYkp7R2QMaDNrt.webp",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article6-control-authorship-thumb-5aL4nZcnvCyUoeXHNUQyKd.webp",
+    substack: null,
+  },
+  {
+    id: 7,
+    slug: "uncomputable-core-consciousness",
+    number: "07",
+    title: "The Uncomputable Core: Human Consciousness and the Limits of Artificial Intelligence",
+    summary:
+      "This paper explores the fundamental distinctions between human consciousness and artificial intelligence, arguing that consciousness is rooted in subjective experience, biological embodiment, and existential awareness of mortality—elements that current AI paradigms fundamentally lack.",
+    date: "Apr 2026",
+    readTime: "12 min read",
+    tags: ["Consciousness", "AI Philosophy", "Neuroscience", "Existentialism", "Qualia"],
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article7-consciousness-thumb-KMYxMeqPpF3j7HYpz8e4sP.webp",
     substack: null,
   },
 ];
