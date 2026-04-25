@@ -68,7 +68,7 @@ This energy consumption is not distributed evenly. The majority is concentrated 
 
 <img src="/manus-storage/figure2-capex_746df681.png" alt="Figure 2: Big Tech AI Infrastructure Capital Expenditure: 2023-2026 (Combined ~$650B+ projected for 2026)" style="width: 100%; max-width: 800px; margin: 20px 0; border: 1px solid #333; border-radius: 4px;" />
 
-**Figure 2:** Big Tech AI Infrastructure Capital Expenditure: 2023-2026. Sources: CNBC (Feb 2026); Fortune (Feb 2026); LinkedIn/RBC Wealth (2025); tech-insider.org (Apr 2026)
+**Figure 2:** Big Tech AI Infrastructure Capital Expenditure: 2023-2026. Sources: CNBC (Feb 2026); Fortune (Feb 2026); LinkedIn/RBC Wealth (2025); tech-insider.org (Apr 20, 2026)
 
 ### 1.2 The Water Crisis
 
@@ -76,7 +76,7 @@ Alongside electricity consumption, AI data centers are consuming extraordinary q
 
 <img src="/manus-storage/figure3-water_9d9b6903.png" alt="Figure 3: AI & Data Centre Water Consumption — Selected Benchmarks (Log Scale)" style="width: 100%; max-width: 800px; margin: 20px 0; border: 1px solid #333; border-radius: 4px;" />
 
-**Figure 3:** AI & Data Centre Water Consumption — Selected Benchmarks (Log Scale). Sources: Brookings (Nov 2025); de Vries-Gao, Patterns/SciencesDirect (Jan 2026); Reuters (Apr 2026); ELI (Oct 2025)
+**Figure 3:** AI & Data Centre Water Consumption — Selected Benchmarks (Log Scale). Sources: Brookings (Nov 2025); de Vries-Gao, Patterns/SciencesDirect (Jan 2026); Reuters (Apr 20, 2026); ELI (Oct 2025)
 
 This water consumption occurs in a context of increasing global water scarcity. In regions where data centers are being built—particularly in the southwestern United States and parts of Europe—freshwater availability is already constrained. The environmental impact extends beyond the immediate facility: cooling water is often returned to rivers and aquifers at elevated temperatures, disrupting local ecosystems.
 
@@ -270,7 +270,7 @@ This article presents a theoretical framework for addressing environmental and l
             A theoretical framework for sustainable AI collaboration addressing environmental and legal crises
           </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 20, 2026</span>
             <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 18-22 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
             <span className="mono-label text-primary/60">Independent Research</span>
@@ -308,13 +308,13 @@ This article presents a theoretical framework for addressing environmental and l
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       AI and The Adaptable Mind →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 20, 2026</p>
                   </Link>
                   <Link href="/articles/knowledge-preservation-ai" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       Knowledge Preservation and AI Systems →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 20, 2026</p>
                   </Link>
                 </div>
               </div>

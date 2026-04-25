@@ -20,7 +20,7 @@ const articles = [
     title: "The Polymathic Mind as a Blueprint",
     summary:
       "Why We Must Design AI as a Safe, Trusted Cognitive Extension Not a Replacement Intelligence. Understanding how the human polymathic mind blends abstract reasoning with lived experience, and why this matters for AI architecture and safety.",
-    date: "Apr 2026",
+    date: "Apr 21, 2026",
     readTime: "12–15 min read",
     tags: ["AI Architecture", "Cognitive Science", "Human-AI Collaboration", "Safety Design"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/polymathic-mind-thumb-BwbjJzLANFsB6UVasETnWc.webp",
@@ -33,7 +33,7 @@ const articles = [
     title: "The Post-Data-Hoarding Economy and the Authorship Spectrum",
     summary:
       "A theoretical framework for sustainable AI collaboration addressing environmental and legal crises in the AI industry. Explores the Post-Data-Hoarding Economy, the Unified Knowledge Theory, and cognitive authorship as foundations for IP protection.",
-    date: "Apr 2026",
+    date: "Apr 20, 2026",
     readTime: "18–22 min read",
     tags: ["AI Architecture", "Sustainability", "IP Law", "Data Economics"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article0-thumb-clean-R53eGeE4bYkp7R2QMaDNrt.webp",
@@ -46,7 +46,7 @@ const articles = [
     title: "AI Safety Isn't a Training Problem — It's an Architecture Problem",
     summary:
       "Most discussions about AI safety focus on training better models. But the core risks in today's AI systems are not just the result of imperfect training — they are the result of how these systems are structured. This article argues that AI safety is fundamentally an architectural problem.",
-    date: "Apr 20, 2026",
+    date: "Apr 18, 2026",
     readTime: "8 min read",
     tags: ["AI Safety", "Architecture", "Alignment"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article1-thumb-Vt3dzcsYoqtXX6oBXBQFrX.webp",
@@ -59,7 +59,7 @@ const articles = [
     title: "The Future Of AI Safety — Children, Mental Instabilities, And Adaptable Minds",
     summary:
       "How many children — mentally vulnerable or adaptable minds — are lost in AI? These discussions with multiple AI platforms are generated into research reports, exploring the intersection of AI safety, child mental health, and the adaptable human mind.",
-    date: "Apr 18, 2026",
+    date: "Apr 10, 2026",
     readTime: "6 min read",
     tags: ["AI Safety", "Children", "Mental Health", "Cognitive Science"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article2-thumb-eTfaENbi9a2przdj3rjFnH.webp",
@@ -72,7 +72,7 @@ const articles = [
     title: "The Unified Knowledge Theory: A Safe, Scalable Foundation for Human-AI Collaboration",
     summary:
       "One Trusted Public Library + User-Controlled Personal Storage. A framework proposing structural separation of verified public knowledge, user-sovereign private data, and company-specific AI models — creating a safe, efficient, and privacy-respecting AI ecosystem.",
-    date: "Apr 09, 2026",
+    date: "Apr 11, 2026",
     readTime: "10 min read",
     tags: ["AI Architecture", "Privacy", "Knowledge Systems", "Sustainability"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",

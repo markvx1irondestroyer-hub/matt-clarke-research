@@ -161,7 +161,7 @@ export default function ArticlePolymathicMind() {
             Why We Must Design AI as a Safe, Trusted Cognitive Extension Not a Replacement Intelligence
           </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 21, 2026</span>
             <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 12–15 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
             <span className="mono-label text-primary/60">Research Synthesis</span>
