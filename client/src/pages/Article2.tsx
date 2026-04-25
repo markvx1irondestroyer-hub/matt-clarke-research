@@ -11,7 +11,7 @@ export default function Article2() {
       heroImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article2-thumb-eTfaENbi9a2przdj3rjFnH.webp"
       heroImageAlt="Child silhouette overlaid with neural network patterns representing AI and cognitive vulnerability"
       tags={["AI Architecture", "Safety", "Modularity", "Cognitive Science"]}
-      date="Apr 18, 2026"
+      date="Apr 10, 2026"
       readTime="18 min read"
       articleId="article-2"
       downloadPdfUrl="/manus-storage/Article2-AI-Safety-Children-Adaptable-Minds_938472.pdf"
@@ -20,12 +20,12 @@ export default function Article2() {
         {
           title: "AI Safety Isn't a Training Problem",
           href: "/articles/ai-safety-architecture-problem",
-          date: "Apr 18, 2026"
+          date: "Apr 10, 2026"
         },
         {
           title: "The Unified Knowledge Theory",
           href: "/articles/unified-knowledge-theory",
-          date: "Apr 18, 2026"
+          date: "Apr 10, 2026"
         }
       ]}
     >

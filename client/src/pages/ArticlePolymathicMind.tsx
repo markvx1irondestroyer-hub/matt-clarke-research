@@ -217,13 +217,13 @@ export default function ArticlePolymathicMind() {
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       AI and The Adaptable Mind →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 17, 2026</p>
                   </Link>
                   <Link href="/articles/unified-knowledge-theory" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       The Unified Knowledge Theory →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 09, 2026</p>
                   </Link>
                 </div>
               </div>

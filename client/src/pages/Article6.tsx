@@ -29,7 +29,7 @@ function Article6Content() {
   const content = `# A Control-Based Model of Authorship in AI-Mediated Research
 
 **Author:** Matt Clarke  
-**Date:** April 2026  
+**Date:** April 22, 2026  
 **Status:** Research Article
 
 ---
