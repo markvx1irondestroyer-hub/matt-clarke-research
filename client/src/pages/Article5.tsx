@@ -37,7 +37,7 @@ function Article5Content() {
   const content = `# Knowledge Preservation and AI Systems: Expanding the Polymathic Framework
 
 **Author:** Matt Clarke (with Grok analysis and synthesis)  
-**Date:** April 2026  
+**Date:** April 15, 2026  
 **Status:** Expansion Report
 
 ---
@@ -323,7 +323,7 @@ This article draws from Grok's analysis of the four previous research articles a
             Expanding the Polymathic Framework to Educational and Institutional Systems
           </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 15, 2026</span>
             <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 15 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
             <span className="mono-label text-primary/60">Grok Analysis & Synthesis</span>
@@ -361,13 +361,13 @@ This article draws from Grok's analysis of the four previous research articles a
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       The Post-Data-Hoarding Economy →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 15, 2026</p>
                   </Link>
                   <Link href="/articles/ai-adaptable-mind" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       AI and The Adaptable Mind →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 15, 2026</p>
                   </Link>
                 </div>
               </div>

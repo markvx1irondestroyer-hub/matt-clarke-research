@@ -11,7 +11,7 @@ export default function Article3() {
       heroImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp"
       heroImageAlt="Interconnected knowledge nodes representing a unified public-private AI knowledge framework"
       tags={["AI Architecture", "Privacy", "Knowledge Systems", "Sustainability"]}
-      date="Apr 2026"
+      date="Apr 09, 2026"
       readTime="10 min read"
       articleId="article-3"
       downloadPdfUrl="/manus-storage/Article3-Unified-Knowledge-Theory_b5a6e417.pdf"
@@ -20,12 +20,12 @@ export default function Article3() {
         {
           title: "AI and The Adaptable Mind",
           href: "/articles/ai-adaptable-mind",
-          date: "Apr 2026"
+          date: "Apr 09, 2026"
         },
         {
           title: "Knowledge Preservation and AI Systems",
           href: "/articles/knowledge-preservation-ai",
-          date: "Apr 12, 2026"
+          date: "Apr 09, 2026"
         }
       ]}
     >

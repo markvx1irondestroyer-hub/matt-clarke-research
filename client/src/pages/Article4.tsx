@@ -37,7 +37,7 @@ function Article4Content() {
   const content = `# AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety
 
 **Author:** Matt Clarke (with research synthesis by collaborative AI analysis)  
-**Date:** April 2026  
+**Date:** April 17, 2026  
 **Status:** Research Article
 
 ---
@@ -324,7 +324,7 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
             How Studying Polymathic Cognition Can Advance AI Architecture and Safety
           </p>
           <div className="flex flex-wrap items-center gap-6">
-            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 2026</span>
+            <span className="mono-label text-muted-foreground flex items-center gap-1.5"><Calendar size={12} /> Apr 17, 2026</span>
             <span className="mono-label text-muted-foreground flex items-center gap-1.5"><BookOpen size={12} /> 18 min read</span>
             <span className="mono-label text-muted-foreground">By Matt Clarke</span>
             <span className="mono-label text-primary/60">Collaborative Analysis</span>
@@ -362,13 +362,13 @@ This article draws from extensive neuroscience, cognitive science, and AI resear
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       The Post-Data-Hoarding Economy →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 17, 2026</p>
                   </Link>
                   <Link href="/articles/knowledge-preservation-ai" className="block group">
                     <p className="text-sm text-foreground/80 group-hover:text-primary transition-colors leading-snug" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                       Knowledge Preservation and AI Systems →
                     </p>
-                    <p className="mono-label text-muted-foreground mt-1">Apr 2026</p>
+                    <p className="mono-label text-muted-foreground mt-1">Apr 17, 2026</p>
                   </Link>
                 </div>
               </div>

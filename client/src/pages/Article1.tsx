@@ -11,7 +11,7 @@ export default function Article1() {
       heroImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article1-thumb-Vt3dzcsYoqtXX6oBXBQFrX.webp"
       heroImageAlt="Architectural diagram symbolizing AI system structure and safety design"
       tags={["AI Safety", "Architecture", "Foundation Problem", "Epistemology"]}
-      date="Apr 10, 2026"
+      date="Apr 20, 2026"
       readTime="20 min read"
       articleId="article-1"
       downloadPdfUrl="/manus-storage/Article1-AI-Safety-Architecture_eee15557.pdf"
@@ -20,12 +20,12 @@ export default function Article1() {
         {
           title: "The Future Of AI Safety",
           href: "/articles/ai-safety-children-adaptable-minds",
-          date: "Apr 12, 2026"
+          date: "Apr 20, 2026"
         },
         {
           title: "The Unified Knowledge Theory",
           href: "/articles/unified-knowledge-theory",
-          date: "Apr 2026"
+          date: "Apr 20, 2026"
         }
       ]}
     >

@@ -10,19 +10,19 @@ export default function Article7() {
       heroImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article0-thumb-clean-R53eGeE4bYkp7R2QMaDNrt.webp"
       heroImageAlt="Abstract representation of human consciousness and the limits of artificial intelligence"
       tags={["Consciousness", "AI Philosophy", "Neuroscience", "Existentialism", "Qualia"]}
-      date="Apr 2026"
+      date="Apr 23, 2026"
       readTime="12 min read"
       articleId="article-7"
       relatedArticles={[
         {
           title: "A Control-Based Model of Authorship in AI-Mediated Research",
           href: "/articles/control-based-model-authorship",
-          date: "Apr 2026"
+          date: "Apr 23, 2026"
         },
         {
           title: "The Polymathic Mind as a Blueprint",
           href: "/articles/polymathic-mind-blueprint",
-          date: "Apr 2026"
+          date: "Apr 23, 2026"
         }
       ]}
     >

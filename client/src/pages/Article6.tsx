@@ -224,19 +224,19 @@ This paper presents a control-based framework for understanding authorship in AI
       heroImage="https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article6-control-authorship-thumb-5aL4nZcnvCyUoeXHNUQyKd.webp"
       heroImageAlt="Abstract representation of human control and AI collaboration"
       tags={["AI Authorship", "Research Ethics", "IP Law", "Collaboration"]}
-      date="Apr 2026"
+      date="Apr 22, 2026"
       readTime="12 min read"
       articleId="article-6"
       relatedArticles={[
         {
           title: "The Post-Data-Hoarding Economy and the Authorship Spectrum",
           href: "/articles/post-data-hoarding-economy-authorship-spectrum",
-          date: "Apr 2026"
+          date: "Apr 22, 2026"
         },
         {
           title: "The Unified Knowledge Theory",
           href: "/articles/unified-knowledge-theory",
-          date: "Apr 2026"
+          date: "Apr 22, 2026"
         }
       ]}
     >
