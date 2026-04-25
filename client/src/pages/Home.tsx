@@ -46,7 +46,7 @@ const articles = [
     title: "AI Safety Isn't a Training Problem — It's an Architecture Problem",
     summary:
       "Most discussions about AI safety focus on training better models. But the core risks in today's AI systems are not just the result of imperfect training — they are the result of how these systems are structured. This article argues that AI safety is fundamentally an architectural problem.",
-    date: "Apr 18, 2026",
+    date: "Apr 10, 2026",
     readTime: "8 min read",
     tags: ["AI Safety", "Architecture", "Alignment"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article1-thumb-Vt3dzcsYoqtXX6oBXBQFrX.webp",
@@ -72,7 +72,7 @@ const articles = [
     title: "The Unified Knowledge Theory: A Safe, Scalable Foundation for Human-AI Collaboration",
     summary:
       "One Trusted Public Library + User-Controlled Personal Storage. A framework proposing structural separation of verified public knowledge, user-sovereign private data, and company-specific AI models — creating a safe, efficient, and privacy-respecting AI ecosystem.",
-    date: "Apr 11, 2026",
+    date: "Apr 09, 2026",
     readTime: "10 min read",
     tags: ["AI Architecture", "Privacy", "Knowledge Systems", "Sustainability"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
