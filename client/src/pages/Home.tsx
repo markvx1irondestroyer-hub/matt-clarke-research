@@ -46,7 +46,7 @@ const articles = [
     title: "AI Safety Isn't a Training Problem — It's an Architecture Problem",
     summary:
       "Most discussions about AI safety focus on training better models. But the core risks in today's AI systems are not just the result of imperfect training — they are the result of how these systems are structured. This article argues that AI safety is fundamentally an architectural problem.",
-    date: "Apr 10, 2026",
+    date: "Apr 20, 2026",
     readTime: "8 min read",
     tags: ["AI Safety", "Architecture", "Alignment"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article1-thumb-Vt3dzcsYoqtXX6oBXBQFrX.webp",
@@ -59,7 +59,7 @@ const articles = [
     title: "The Future Of AI Safety — Children, Mental Instabilities, And Adaptable Minds",
     summary:
       "How many children — mentally vulnerable or adaptable minds — are lost in AI? These discussions with multiple AI platforms are generated into research reports, exploring the intersection of AI safety, child mental health, and the adaptable human mind.",
-    date: "Apr 12, 2026",
+    date: "Apr 18, 2026",
     readTime: "6 min read",
     tags: ["AI Safety", "Children", "Mental Health", "Cognitive Science"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article2-thumb-eTfaENbi9a2przdj3rjFnH.webp",
@@ -72,7 +72,7 @@ const articles = [
     title: "The Unified Knowledge Theory: A Safe, Scalable Foundation for Human-AI Collaboration",
     summary:
       "One Trusted Public Library + User-Controlled Personal Storage. A framework proposing structural separation of verified public knowledge, user-sovereign private data, and company-specific AI models — creating a safe, efficient, and privacy-respecting AI ecosystem.",
-    date: "Apr 2026",
+    date: "Apr 09, 2026",
     readTime: "10 min read",
     tags: ["AI Architecture", "Privacy", "Knowledge Systems", "Sustainability"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article3-thumb-Y7SH5tKPxtwa7joMc2vHMC.webp",
@@ -85,7 +85,7 @@ const articles = [
     title: "AI and The Adaptable Mind: How Studying Polymathic Cognition Can Advance AI Architecture and Safety",
     summary:
       "Large Language Models may represent an accidental external recreation of the human polymath mind. This research explores the Neuro-Adaptive Reasoning Framework (LLM-HSAB) and connects neuroscience, cognitive science, and AI research to propose that studying human polymathic cognition offers a pathway to safer, more reliable AI systems.",
-    date: "Apr 2026",
+    date: "Apr 17, 2026",
     readTime: "15 min read",
     tags: ["Neuroscience", "Cognitive Science", "AI Architecture", "Polymathy"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article4-hero-2U3fwrEHqboTcEjEYSMdkS.webp",
@@ -98,7 +98,7 @@ const articles = [
     title: "Knowledge Preservation and AI Systems: Expanding the Polymathic Framework",
     summary:
       "The polymathic frameworks extend beyond AI architecture into educational systems, scientific publishing, and knowledge preservation. This expansion explores how modular compartmentalization and domain-specific expertise apply to institutional systems.",
-    date: "Apr 2026",
+    date: "Apr 15, 2026",
     readTime: "15 min read",
     tags: ["Knowledge Preservation", "Education", "Peer Review", "Institutional Systems"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article5-hero-Q25FGsCcMVBi7BPzHNvjxw.webp",
@@ -111,7 +111,7 @@ const articles = [
     title: "A Control-Based Model of Authorship in AI-Mediated Research",
     summary:
       "The rapid integration of AI into research workflows has generated a crisis of authorship attribution. This paper proposes a control-based model, arguing that authorship is determined by sustained conceptual control, evaluative judgment, and iterative refinement rather than mere generation.",
-    date: "Apr 2026",
+    date: "Apr 22, 2026",
     readTime: "12 min read",
     tags: ["AI Authorship", "Research Ethics", "IP Law", "Collaboration"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article6-control-authorship-thumb-5aL4nZcnvCyUoeXHNUQyKd.webp",
@@ -124,7 +124,7 @@ const articles = [
     title: "The Uncomputable Core: Human Consciousness and the Limits of Artificial Intelligence",
     summary:
       "This paper explores the fundamental distinctions between human consciousness and artificial intelligence, arguing that consciousness is rooted in subjective experience, biological embodiment, and existential awareness of mortality—elements that current AI paradigms fundamentally lack.",
-    date: "Apr 2026",
+    date: "Apr 23, 2026",
     readTime: "12 min read",
     tags: ["Consciousness", "AI Philosophy", "Neuroscience", "Existentialism", "Qualia"],
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663569588948/T7mDLwnDgNSQARR2cGjMY5/article7-consciousness-thumb-KMYxMeqPpF3j7HYpz8e4sP.webp",
